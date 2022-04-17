@@ -196,7 +196,7 @@ function submitSolutionProposal() {
   const proposedWord = solutionProposalDOM().textContent
   if (proposedWord.length < 4) {
     writeError("För kort");
-  } else if (!proposedWord.includes(window.problems[selected()].characters.primary)){
+  } else if (!proposedWord.includes(window.problems[selected()].characters.fixed)){
     writeError("Saknar bokstaven i mitten");
   } else {
     const problemWord = window.problems[selected()].words[proposedWord];
