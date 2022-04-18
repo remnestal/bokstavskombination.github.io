@@ -1,5 +1,226 @@
 window.problems = [
 	{
+  "date": "2022-04-18",
+  "characters": {
+    "fixed": "g",
+    "optional": [
+      "p",
+      "u",
+      "r",
+      "t",
+      "s",
+      "i"
+    ]
+  },
+  "total_score": 228,
+  "words": {
+    "gigg": {
+      "points": 1,
+      "panagram": false
+    },
+    "gipp": {
+      "points": 1,
+      "panagram": false
+    },
+    "gips": {
+      "points": 1,
+      "panagram": false
+    },
+    "girig": {
+      "points": 5,
+      "panagram": false
+    },
+    "giss": {
+      "points": 1,
+      "panagram": false
+    },
+    "gist": {
+      "points": 1,
+      "panagram": false
+    },
+    "giut": {
+      "points": 1,
+      "panagram": false
+    },
+    "grip": {
+      "points": 1,
+      "panagram": false
+    },
+    "gris": {
+      "points": 1,
+      "panagram": false
+    },
+    "grisig": {
+      "points": 6,
+      "panagram": false
+    },
+    "grupp": {
+      "points": 5,
+      "panagram": false
+    },
+    "grus": {
+      "points": 1,
+      "panagram": false
+    },
+    "grusig": {
+      "points": 6,
+      "panagram": false
+    },
+    "gupp": {
+      "points": 1,
+      "panagram": false
+    },
+    "guppig": {
+      "points": 6,
+      "panagram": false
+    },
+    "guru": {
+      "points": 1,
+      "panagram": false
+    },
+    "guss": {
+      "points": 1,
+      "panagram": false
+    },
+    "isig": {
+      "points": 1,
+      "panagram": false
+    },
+    "isigt": {
+      "points": 5,
+      "panagram": false
+    },
+    "pigg": {
+      "points": 1,
+      "panagram": false
+    },
+    "pipig": {
+      "points": 5,
+      "panagram": false
+    },
+    "pirig": {
+      "points": 5,
+      "panagram": false
+    },
+    "pirrig": {
+      "points": 6,
+      "panagram": false
+    },
+    "pussig": {
+      "points": 6,
+      "panagram": false
+    },
+    "pustig": {
+      "points": 6,
+      "panagram": false
+    },
+    "putig": {
+      "points": 5,
+      "panagram": false
+    },
+    "puttrig": {
+      "points": 7,
+      "panagram": false
+    },
+    "rigg": {
+      "points": 1,
+      "panagram": false
+    },
+    "risig": {
+      "points": 5,
+      "panagram": false
+    },
+    "rispig": {
+      "points": 6,
+      "panagram": false
+    },
+    "rugg": {
+      "points": 1,
+      "panagram": false
+    },
+    "ruggig": {
+      "points": 6,
+      "panagram": false
+    },
+    "rusig": {
+      "points": 5,
+      "panagram": false
+    },
+    "rutig": {
+      "points": 5,
+      "panagram": false
+    },
+    "sittgrupp": {
+      "points": 16,
+      "panagram": true
+    },
+    "spigg": {
+      "points": 5,
+      "panagram": false
+    },
+    "spritsig": {
+      "points": 8,
+      "panagram": false
+    },
+    "stig": {
+      "points": 1,
+      "panagram": false
+    },
+    "stirrig": {
+      "points": 7,
+      "panagram": false
+    },
+    "stissig": {
+      "points": 7,
+      "panagram": false
+    },
+    "stripig": {
+      "points": 7,
+      "panagram": false
+    },
+    "struttig": {
+      "points": 8,
+      "panagram": false
+    },
+    "sturig": {
+      "points": 6,
+      "panagram": false
+    },
+    "supig": {
+      "points": 5,
+      "panagram": false
+    },
+    "surrig": {
+      "points": 6,
+      "panagram": false
+    },
+    "sussig": {
+      "points": 6,
+      "panagram": false
+    },
+    "trug": {
+      "points": 1,
+      "panagram": false
+    },
+    "tugg": {
+      "points": 1,
+      "panagram": false
+    },
+    "turistgrupp": {
+      "points": 18,
+      "panagram": true
+    },
+    "uigur": {
+      "points": 5,
+      "panagram": false
+    },
+    "utsug": {
+      "points": 5,
+      "panagram": false
+    }
+  }
+},
+	{
 		"date": "2022-04-17",
 		"characters": {
 			"fixed": "d",
