@@ -359,5 +359,14 @@ html, body {
 
 .character-grid-item-main {
   background-color: #f3b171;
-  color: white;
+  color: rgb(45, 45, 45);
+}
+
+@keyframes charFade {
+  40%, 60% { opacity: 0 }
+  0%, 100% { opacity: 1 }
+}
+
+.char-fade {
+  animation: charFade 300ms linear;
 }
