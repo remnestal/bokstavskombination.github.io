@@ -67,6 +67,24 @@ function setOptionalCharactersRandomOrder(optional) {
   document.getElementById("char-optional-5").textContent = optional[5].toUpperCase()
 }
 
+// Runs the fade-in and fade-out effect of the optional characters.
+function fadeOptionalCharacters() {
+  document.getElementById("char-optional-0").classList.add("char-fade")
+  document.getElementById("char-optional-1").classList.add("char-fade")
+  document.getElementById("char-optional-2").classList.add("char-fade")
+  document.getElementById("char-optional-3").classList.add("char-fade")
+  document.getElementById("char-optional-4").classList.add("char-fade")
+  document.getElementById("char-optional-5").classList.add("char-fade")
+  sleep(300).then(() => {
+    document.getElementById("char-optional-0").classList.remove("char-fade")
+    document.getElementById("char-optional-1").classList.remove("char-fade")
+    document.getElementById("char-optional-2").classList.remove("char-fade")
+    document.getElementById("char-optional-3").classList.remove("char-fade")
+    document.getElementById("char-optional-4").classList.remove("char-fade")
+    document.getElementById("char-optional-5").classList.remove("char-fade")
+  });
+}
+
 // Return the DOM element for the fixed character.
 function getFixedCharacterDOM() {
   return document.getElementById("char-fixed")
@@ -75,7 +93,10 @@ function getFixedCharacterDOM() {
 // Shuffles the order of the optional characters.
 function shuffleCharacters() {
   const problem = window.problems[selected()]
-  setOptionalCharactersRandomOrder(problem.characters.optional);
+  fadeOptionalCharacters()
+  sleep(150).then(() => {
+    setOptionalCharactersRandomOrder(problem.characters.optional);
+  });
 }
 
 // Update the score counter and list of solved words with information from the
