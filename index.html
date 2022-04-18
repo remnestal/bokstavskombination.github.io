@@ -1,137 +1,71 @@
-// Replace the local storage with a new object containing only valid problems,
-// retaining existing solutions and initialising new ones for new problems.
-function reloadSolutionsList() {
-  // Find the current list of solutions from the local storage, or initialise
-  // a new locally allocated version as a placeholder if it does not exist.
-  let oldStorage = getAllSolutions();
-  if (oldStorage === null) {
-    oldStorage = {};
-  }
-  // Keep all solutions for existing problems and create zero-initialised
-  // objects for the unknown ones. Solutions that are not part of the latest
-  // list of problems are implicitly phased out by this operation.
-  newStorage = {}
-  Object.keys(window.problems).forEach(index => {
-    const date = window.problems[index].date
-    if (oldStorage[date] != undefined) {
-      newStorage[date] = oldStorage[date];
-    } else {
-      newStorage[date] = {
-        "total_score": 0,
-        "words_order": [],
-        "words": {},
-      };
-    }
-  })
-  // Put the patched solutions list in the local storage.
-  setAllSolutions(newStorage);
-}
-
-// Replace the list items of the problem selector to only reflect the latest
-// state of problems that the user can actually choose between.
-function reloadProblemsDropdown() {
-  document.getElementById("problem-selector").replaceChildren(...Object.keys(window.problems).map(index => {
-    const node = document.createElement("option");
-    node.appendChild(document.createTextNode(window.problems[index].date));
-    node.setAttribute("value", index);
-    return node
-  }));
-}
-
-// Returns the index of the selected problem. Note that this function should
-// not be called before the local storage has been initialised.
-function selected() {
-  return window["selected-problem-index"]
-}
-
-// selectProblem changes the "selected" problem, which causes a reload of the
-// UI related to the solution state, like score and list of solved words.
-function selectProblem(index) {
-  // Update the selected index as stored in the local storage, so that later
-  // invocations of other function knows which problem is selected.
-  window["selected-problem-index"] = index;
-  reloadSelection();
-}
-
-// Set the passed optional characters in a random order.
-function setOptionalCharactersRandomOrder(optional) {
-  for (let i = optional.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [optional[i], optional[j]] = [optional[j], optional[i]];
-  }
-  document.getElementById("char-optional-0").textContent = optional[0].toUpperCase()
-  document.getElementById("char-optional-1").textContent = optional[1].toUpperCase()
-  document.getElementById("char-optional-2").textContent = optional[2].toUpperCase()
-  document.getElementById("char-optional-3").textContent = optional[3].toUpperCase()
-  document.getElementById("char-optional-4").textContent = optional[4].toUpperCase()
-  document.getElementById("char-optional-5").textContent = optional[5].toUpperCase()
-}
-
-// Runs the fade-in and fade-out effect of the optional characters.
-function fadeOptionalCharacters() {
-  document.getElementById("char-optional-0").classList.add("char-fade")
-  document.getElementById("char-optional-1").classList.add("char-fade")
-  document.getElementById("char-optional-2").classList.add("char-fade")
-  document.getElementById("char-optional-3").classList.add("char-fade")
-  document.getElementById("char-optional-4").classList.add("char-fade")
-  document.getElementById("char-optional-5").classList.add("char-fade")
-  sleep(300).then(() => {
-    document.getElementById("char-optional-0").classList.remove("char-fade")
-    document.getElementById("char-optional-1").classList.remove("char-fade")
-    document.getElementById("char-optional-2").classList.remove("char-fade")
-    document.getElementById("char-optional-3").classList.remove("char-fade")
-    document.getElementById("char-optional-4").classList.remove("char-fade")
-    document.getElementById("char-optional-5").classList.remove("char-fade")
-  });
-}
-
-// Return the DOM element for the fixed character.
-function getFixedCharacterDOM() {
-  return document.getElementById("char-fixed")
-}
-
-// Shuffles the order of the optional characters.
-function shuffleCharacters() {
-  const problem = window.problems[selected()]
-  fadeOptionalCharacters()
-  sleep(150).then(() => {
-    setOptionalCharactersRandomOrder(problem.characters.optional);
-  });
-}
-
-// Update the score counter and list of solved words with information from the
-// solution corresponding to the selected problem index.
-function reloadSelection() {
-  const solution = getSolution(selected())
-  const problem = window.problems[selected()]
-
-  // Load the scoreboard.
-  solutionScoreDOM().textContent = solution.total_score;
-
-  // Load the list of words solved.
-  updateSolvedScoreDOM()
-  updateSolvedWordDOM()
-
-  // Load the problem-characters.
-  getFixedCharacterDOM().textContent = problem.characters.fixed.toUpperCase();
-  setOptionalCharactersRandomOrder(problem.characters.optional);
-
-  // Clear the solution proposal and start fresh.
-  clearSolutionProposal(false)
-}
-
-window.onload = function() {
-  // Patch the list of "solutions" entries by removing those dates that do not
-  // exist in the list of "problems". This means dropping those "solutions"
-  // entries forever.
-  reloadSolutionsList();
-
-  // Patch the dropdown of "problems" with the latest list.
-  // TODO: implement this properly.
-  // reloadProblemsDropdown();
-
-  // Make the latest entry of the "problems" list the selected one.
-  // This includes populating the characters, the list of words already found
-  // in the corresponding solution entry, etc.
-  selectProblem(0);
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bokstavskombination</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script src="index.js"></script>
+  <script src="solved.js"></script>
+  <script src="solution.js"></script>
+  <script src="problems.js"></script>
+  <div class="container">
+    <div id="scoreline">
+      <span id="scoreline-value">0</span>
+      <span id="scoreline-meter">
+        <span id="scoreline-ratio" class="gray">
+          <span id="scoreline-ratio-percent-value">0</span>
+          <i id="scoreline-ratio-percent-symbol" class="fa fa-percent"></i>
+        </span>
+      </span>
+    </div>
+    <div id="solved-expandable" class="fade-out">
+      <div id="solved-expandable-topbar">
+        <div id="solved-expandable-prompt">Du har hittat <span id="solved-expandable-count">0</span> ord</div>
+        <button id="solved-expandable-toggle" onclick="collapseSolvedExpandable()"><i class="fa fa-compress"></i></button>
+      </div>
+      <div id="solved-expandable-columns">
+        <!-- placeholder -->
+      </div>
+    </div>
+    <div id="solved-summary">
+      <span id="solved-summary-list">Inga ord hittade ännu</span>
+      <button id="solved-summary-toggle" onclick="expandSolvedExpandable()"><i class="fa fa-expand"></i></button>
+    </div>
+    <div id="floating">
+      <div id="alert-message">
+        <!-- placeholder -->
+      </div>
+      <div id="terminal">
+        <span id="terminal-placeholder">|</span>
+        <span id="terminal-staging"></span>
+        <span id="terminal-cursor">|</span>
+      </div>
+      <div id="characters">
+        <div id="character-row-1">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-0"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-1"></span></button>
+        </div>
+        <div id="character-row-2">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-2"></span></button>
+          <button class="character-grid-item-main" onclick="appendSolutionProposal(event)"><span id="char-fixed"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-3"></span></button>
+        </div>
+        <div id="character-row-3">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-4"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-5"></span></button>
+        </div>
+      </div>
+      <div id="panel">
+        <button id="panel-button-erase" class="panel-button" onclick="popSolutionProposal()">Sudda</button>
+        <button id="panel-button-shuffle" class="panel-button" onclick="shuffleCharacters()"><i class="fa fa-random"></i></button>
+        <button id="panel-button-submit" class="panel-button" onclick="submitSolutionProposal()">Pröva</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
