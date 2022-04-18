@@ -49,7 +49,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 0%;
   min-width: 50px;
   color:white;
   font-weight: bold;
