@@ -1,5 +1,309 @@
 window.problems = [
 	{
+  "date": "2022-04-19",
+  "characters": {
+    "fixed": "d",
+    "optional": [
+      "m",
+      "i",
+      "n",
+      "k",
+      "s",
+      "a"
+    ]
+  },
+  "total_score": 386,
+  "words": {
+    "aids": {
+      "points": 1,
+      "panagram": false
+    },
+    "amid": {
+      "points": 1,
+      "panagram": false
+    },
+    "anda": {
+      "points": 1,
+      "panagram": false
+    },
+    "andas": {
+      "points": 5,
+      "panagram": false
+    },
+    "andinsk": {
+      "points": 7,
+      "panagram": false
+    },
+    "ankdamm": {
+      "points": 7,
+      "panagram": false
+    },
+    "dadaism": {
+      "points": 7,
+      "panagram": false
+    },
+    "dadda": {
+      "points": 5,
+      "panagram": false
+    },
+    "damask": {
+      "points": 6,
+      "panagram": false
+    },
+    "damm": {
+      "points": 1,
+      "panagram": false
+    },
+    "damma": {
+      "points": 5,
+      "panagram": false
+    },
+    "damsida": {
+      "points": 7,
+      "panagram": false
+    },
+    "dana": {
+      "points": 1,
+      "panagram": false
+    },
+    "danism": {
+      "points": 6,
+      "panagram": false
+    },
+    "dank": {
+      "points": 1,
+      "panagram": false
+    },
+    "dans": {
+      "points": 1,
+      "panagram": false
+    },
+    "dansa": {
+      "points": 5,
+      "panagram": false
+    },
+    "dansk": {
+      "points": 5,
+      "panagram": false
+    },
+    "danska": {
+      "points": 6,
+      "panagram": false
+    },
+    "dask": {
+      "points": 1,
+      "panagram": false
+    },
+    "daska": {
+      "points": 5,
+      "panagram": false
+    },
+    "dass": {
+      "points": 1,
+      "panagram": false
+    },
+    "dika": {
+      "points": 1,
+      "panagram": false
+    },
+    "dimma": {
+      "points": 5,
+      "panagram": false
+    },
+    "disk": {
+      "points": 1,
+      "panagram": false
+    },
+    "diska": {
+      "points": 5,
+      "panagram": false
+    },
+    "diskmaskin": {
+      "points": 17,
+      "panagram": true
+    },
+    "diss": {
+      "points": 1,
+      "panagram": false
+    },
+    "dissa": {
+      "points": 5,
+      "panagram": false
+    },
+    "idas": {
+      "points": 1,
+      "panagram": false
+    },
+    "idka": {
+      "points": 1,
+      "panagram": false
+    },
+    "inandas": {
+      "points": 7,
+      "panagram": false
+    },
+    "indian": {
+      "points": 6,
+      "panagram": false
+    },
+    "indiansk": {
+      "points": 8,
+      "panagram": false
+    },
+    "indianska": {
+      "points": 9,
+      "panagram": false
+    },
+    "indimmad": {
+      "points": 8,
+      "panagram": false
+    },
+    "indisk": {
+      "points": 6,
+      "panagram": false
+    },
+    "indiska": {
+      "points": 7,
+      "panagram": false
+    },
+    "inkaindian": {
+      "points": 10,
+      "panagram": false
+    },
+    "insida": {
+      "points": 6,
+      "panagram": false
+    },
+    "isdans": {
+      "points": 6,
+      "panagram": false
+    },
+    "kadi": {
+      "points": 1,
+      "panagram": false
+    },
+    "kandi": {
+      "points": 5,
+      "panagram": false
+    },
+    "kaskad": {
+      "points": 6,
+      "panagram": false
+    },
+    "kind": {
+      "points": 1,
+      "panagram": false
+    },
+    "madam": {
+      "points": 5,
+      "panagram": false
+    },
+    "makadam": {
+      "points": 7,
+      "panagram": false
+    },
+    "manad": {
+      "points": 5,
+      "panagram": false
+    },
+    "manssida": {
+      "points": 8,
+      "panagram": false
+    },
+    "maskinskada": {
+      "points": 18,
+      "panagram": true
+    },
+    "miniskida": {
+      "points": 16,
+      "panagram": true
+    },
+    "nada": {
+      "points": 1,
+      "panagram": false
+    },
+    "nidsk": {
+      "points": 5,
+      "panagram": false
+    },
+    "sadism": {
+      "points": 6,
+      "panagram": false
+    },
+    "saknad": {
+      "points": 6,
+      "panagram": false
+    },
+    "sakskada": {
+      "points": 8,
+      "panagram": false
+    },
+    "samdansad": {
+      "points": 9,
+      "panagram": false
+    },
+    "sand": {
+      "points": 1,
+      "panagram": false
+    },
+    "sanda": {
+      "points": 5,
+      "panagram": false
+    },
+    "sandkaka": {
+      "points": 8,
+      "panagram": false
+    },
+    "sandmask": {
+      "points": 8,
+      "panagram": false
+    },
+    "sansad": {
+      "points": 6,
+      "panagram": false
+    },
+    "sida": {
+      "points": 1,
+      "panagram": false
+    },
+    "simand": {
+      "points": 6,
+      "panagram": false
+    },
+    "sinnad": {
+      "points": 6,
+      "panagram": false
+    },
+    "skada": {
+      "points": 5,
+      "panagram": false
+    },
+    "skakad": {
+      "points": 6,
+      "panagram": false
+    },
+    "skandisk": {
+      "points": 8,
+      "panagram": false
+    },
+    "skida": {
+      "points": 5,
+      "panagram": false
+    },
+    "skinnsida": {
+      "points": 9,
+      "panagram": false
+    },
+    "smida": {
+      "points": 5,
+      "panagram": false
+    },
+    "snida": {
+      "points": 5,
+      "panagram": false
+    }
+  }
+},{
   "date": "2022-04-18",
   "characters": {
     "fixed": "g",
