@@ -1,5 +1,334 @@
 window.problems = [
 	{
+  "date": "2022-04-20",
+  "characters": {
+    "fixed": "e",
+    "optional": [
+      "d",
+      "m",
+      "i",
+      "g",
+      "n",
+      "a"
+    ]
+  },
+  "total_score": 367,
+  "words": {
+    "addend": {
+      "points": 6,
+      "panagram": false
+    },
+    "addenda": {
+      "points": 7,
+      "panagram": false
+    },
+    "adenin": {
+      "points": 6,
+      "panagram": false
+    },
+    "agenda": {
+      "points": 6,
+      "panagram": false
+    },
+    "amen": {
+      "points": 1,
+      "panagram": false
+    },
+    "anammande": {
+      "points": 9,
+      "panagram": false
+    },
+    "ande": {
+      "points": 1,
+      "panagram": false
+    },
+    "andemening": {
+      "points": 17,
+      "panagram": true
+    },
+    "anemi": {
+      "points": 5,
+      "panagram": false
+    },
+    "ange": {
+      "points": 1,
+      "panagram": false
+    },
+    "anime": {
+      "points": 5,
+      "panagram": false
+    },
+    "danneman": {
+      "points": 8,
+      "panagram": false
+    },
+    "dega": {
+      "points": 1,
+      "panagram": false
+    },
+    "degig": {
+      "points": 5,
+      "panagram": false
+    },
+    "denim": {
+      "points": 5,
+      "panagram": false
+    },
+    "denna": {
+      "points": 5,
+      "panagram": false
+    },
+    "denne": {
+      "points": 5,
+      "panagram": false
+    },
+    "diadem": {
+      "points": 6,
+      "panagram": false
+    },
+    "diggande": {
+      "points": 8,
+      "panagram": false
+    },
+    "dinge": {
+      "points": 5,
+      "panagram": false
+    },
+    "edda": {
+      "points": 1,
+      "panagram": false
+    },
+    "egen": {
+      "points": 1,
+      "panagram": false
+    },
+    "egennamn": {
+      "points": 8,
+      "panagram": false
+    },
+    "egga": {
+      "points": 1,
+      "panagram": false
+    },
+    "egid": {
+      "points": 1,
+      "panagram": false
+    },
+    "emedan": {
+      "points": 6,
+      "panagram": false
+    },
+    "emma": {
+      "points": 1,
+      "panagram": false
+    },
+    "enande": {
+      "points": 6,
+      "panagram": false
+    },
+    "enda": {
+      "points": 1,
+      "panagram": false
+    },
+    "ende": {
+      "points": 1,
+      "panagram": false
+    },
+    "endemi": {
+      "points": 6,
+      "panagram": false
+    },
+    "eneggad": {
+      "points": 7,
+      "panagram": false
+    },
+    "engagemang": {
+      "points": 10,
+      "panagram": false
+    },
+    "enig": {
+      "points": 1,
+      "panagram": false
+    },
+    "ening": {
+      "points": 5,
+      "panagram": false
+    },
+    "gage": {
+      "points": 1,
+      "panagram": false
+    },
+    "game": {
+      "points": 1,
+      "panagram": false
+    },
+    "gedigen": {
+      "points": 7,
+      "panagram": false
+    },
+    "gegga": {
+      "points": 5,
+      "panagram": false
+    },
+    "geggig": {
+      "points": 6,
+      "panagram": false
+    },
+    "gemen": {
+      "points": 5,
+      "panagram": false
+    },
+    "gena": {
+      "points": 1,
+      "panagram": false
+    },
+    "geni": {
+      "points": 1,
+      "panagram": false
+    },
+    "genie": {
+      "points": 5,
+      "panagram": false
+    },
+    "ginge": {
+      "points": 5,
+      "panagram": false
+    },
+    "gned": {
+      "points": 1,
+      "panagram": false
+    },
+    "gniden": {
+      "points": 6,
+      "panagram": false
+    },
+    "igen": {
+      "points": 1,
+      "panagram": false
+    },
+    "image": {
+      "points": 5,
+      "panagram": false
+    },
+    "indie": {
+      "points": 5,
+      "panagram": false
+    },
+    "inge": {
+      "points": 1,
+      "panagram": false
+    },
+    "ingen": {
+      "points": 5,
+      "panagram": false
+    },
+    "inne": {
+      "points": 1,
+      "panagram": false
+    },
+    "madame": {
+      "points": 6,
+      "panagram": false
+    },
+    "mage": {
+      "points": 1,
+      "panagram": false
+    },
+    "manege": {
+      "points": 6,
+      "panagram": false
+    },
+    "mannaminne": {
+      "points": 10,
+      "panagram": false
+    },
+    "medan": {
+      "points": 5,
+      "panagram": false
+    },
+    "medge": {
+      "points": 5,
+      "panagram": false
+    },
+    "media": {
+      "points": 5,
+      "panagram": false
+    },
+    "median": {
+      "points": 6,
+      "panagram": false
+    },
+    "medina": {
+      "points": 6,
+      "panagram": false
+    },
+    "medmamma": {
+      "points": 8,
+      "panagram": false
+    },
+    "memma": {
+      "points": 5,
+      "panagram": false
+    },
+    "mena": {
+      "points": 1,
+      "panagram": false
+    },
+    "menad": {
+      "points": 5,
+      "panagram": false
+    },
+    "menande": {
+      "points": 7,
+      "panagram": false
+    },
+    "mene": {
+      "points": 1,
+      "panagram": false
+    },
+    "mened": {
+      "points": 5,
+      "panagram": false
+    },
+    "menig": {
+      "points": 5,
+      "panagram": false
+    },
+    "mening": {
+      "points": 6,
+      "panagram": false
+    },
+    "minne": {
+      "points": 5,
+      "panagram": false
+    },
+    "naggande": {
+      "points": 8,
+      "panagram": false
+    },
+    "namne": {
+      "points": 5,
+      "panagram": false
+    },
+    "namnge": {
+      "points": 6,
+      "panagram": false
+    },
+    "nedan": {
+      "points": 5,
+      "panagram": false
+    },
+    "neddammad": {
+      "points": 9,
+      "panagram": false
+    },
+    "niande": {
+      "points": 6,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-19",
   "characters": {
     "fixed": "d",
