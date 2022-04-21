@@ -2,6 +2,279 @@ window.problems = [
 	{
   "date": "2022-04-20",
   "characters": {
+    "fixed": "p",
+    "optional": [
+      "k",
+      "n",
+      "t",
+      "e",
+      "s",
+      "i"
+    ]
+  },
+  "total_score": 305,
+  "words": {
+    "epik": {
+      "points": 1,
+      "panagram": false
+    },
+    "episk": {
+      "points": 5,
+      "panagram": false
+    },
+    "epitet": {
+      "points": 6,
+      "panagram": false
+    },
+    "ispik": {
+      "points": 5,
+      "panagram": false
+    },
+    "keps": {
+      "points": 1,
+      "panagram": false
+    },
+    "knep": {
+      "points": 1,
+      "panagram": false
+    },
+    "knip": {
+      "points": 1,
+      "panagram": false
+    },
+    "knippe": {
+      "points": 6,
+      "panagram": false
+    },
+    "knips": {
+      "points": 5,
+      "panagram": false
+    },
+    "knisp": {
+      "points": 5,
+      "panagram": false
+    },
+    "peke": {
+      "points": 1,
+      "panagram": false
+    },
+    "pekines": {
+      "points": 7,
+      "panagram": false
+    },
+    "pekpinne": {
+      "points": 8,
+      "panagram": false
+    },
+    "pektin": {
+      "points": 6,
+      "panagram": false
+    },
+    "penis": {
+      "points": 5,
+      "panagram": false
+    },
+    "penitens": {
+      "points": 8,
+      "panagram": false
+    },
+    "penne": {
+      "points": 5,
+      "panagram": false
+    },
+    "penni": {
+      "points": 5,
+      "panagram": false
+    },
+    "pennspets": {
+      "points": 9,
+      "panagram": false
+    },
+    "pepsin": {
+      "points": 6,
+      "panagram": false
+    },
+    "pest": {
+      "points": 1,
+      "panagram": false
+    },
+    "petit": {
+      "points": 5,
+      "panagram": false
+    },
+    "petitess": {
+      "points": 8,
+      "panagram": false
+    },
+    "petits": {
+      "points": 6,
+      "panagram": false
+    },
+    "pietet": {
+      "points": 6,
+      "panagram": false
+    },
+    "pietist": {
+      "points": 7,
+      "panagram": false
+    },
+    "pietistisk": {
+      "points": 10,
+      "panagram": false
+    },
+    "piket": {
+      "points": 5,
+      "panagram": false
+    },
+    "pinn": {
+      "points": 1,
+      "panagram": false
+    },
+    "pinne": {
+      "points": 5,
+      "panagram": false
+    },
+    "pins": {
+      "points": 1,
+      "panagram": false
+    },
+    "pint": {
+      "points": 1,
+      "panagram": false
+    },
+    "pipett": {
+      "points": 6,
+      "panagram": false
+    },
+    "pippi": {
+      "points": 5,
+      "panagram": false
+    },
+    "pisk": {
+      "points": 1,
+      "panagram": false
+    },
+    "piss": {
+      "points": 1,
+      "panagram": false
+    },
+    "pist": {
+      "points": 1,
+      "panagram": false
+    },
+    "pitt": {
+      "points": 1,
+      "panagram": false
+    },
+    "sepsis": {
+      "points": 6,
+      "panagram": false
+    },
+    "septett": {
+      "points": 7,
+      "panagram": false
+    },
+    "septisk": {
+      "points": 7,
+      "panagram": false
+    },
+    "sipp": {
+      "points": 1,
+      "panagram": false
+    },
+    "sittpinne": {
+      "points": 9,
+      "panagram": false
+    },
+    "skepp": {
+      "points": 5,
+      "panagram": false
+    },
+    "skepsis": {
+      "points": 7,
+      "panagram": false
+    },
+    "skeptisk": {
+      "points": 8,
+      "panagram": false
+    },
+    "snip": {
+      "points": 1,
+      "panagram": false
+    },
+    "snipp": {
+      "points": 5,
+      "panagram": false
+    },
+    "spene": {
+      "points": 5,
+      "panagram": false
+    },
+    "spens": {
+      "points": 5,
+      "panagram": false
+    },
+    "spets": {
+      "points": 5,
+      "panagram": false
+    },
+    "spett": {
+      "points": 5,
+      "panagram": false
+    },
+    "spik": {
+      "points": 1,
+      "panagram": false
+    },
+    "spinett": {
+      "points": 7,
+      "panagram": false
+    },
+    "spink": {
+      "points": 5,
+      "panagram": false
+    },
+    "spinn": {
+      "points": 5,
+      "panagram": false
+    },
+    "spinnteknik": {
+      "points": 18,
+      "panagram": true
+    },
+    "spis": {
+      "points": 1,
+      "panagram": false
+    },
+    "stekspett": {
+      "points": 9,
+      "panagram": false
+    },
+    "stepp": {
+      "points": 5,
+      "panagram": false
+    },
+    "tennpest": {
+      "points": 8,
+      "panagram": false
+    },
+    "tipi": {
+      "points": 1,
+      "panagram": false
+    },
+    "tipp": {
+      "points": 1,
+      "panagram": false
+    },
+    "tips": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
+  "date": "2022-04-20",
+  "characters": {
     "fixed": "e",
     "optional": [
       "d",
