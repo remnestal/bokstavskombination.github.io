@@ -1,5 +1,246 @@
 window.problems = [
 	{
+  "date": "2022-04-22",
+  "characters": {
+    "fixed": "y",
+    "optional": [
+      "b",
+      "e",
+      "s",
+      "r",
+      "t",
+      "a"
+    ]
+  },
+  "total_score": 301,
+  "words": {
+    "arbetsbyte": {
+      "points": 17,
+      "panagram": true
+    },
+    "arbetsyta": {
+      "points": 16,
+      "panagram": true
+    },
+    "baby": {
+      "points": 1,
+      "panagram": false
+    },
+    "baryt": {
+      "points": 5,
+      "panagram": false
+    },
+    "basyta": {
+      "points": 6,
+      "panagram": false
+    },
+    "bayrare": {
+      "points": 7,
+      "panagram": false
+    },
+    "bestyr": {
+      "points": 6,
+      "panagram": false
+    },
+    "bestyra": {
+      "points": 14,
+      "panagram": true
+    },
+    "bryta": {
+      "points": 5,
+      "panagram": false
+    },
+    "brytare": {
+      "points": 7,
+      "panagram": false
+    },
+    "brytbar": {
+      "points": 7,
+      "panagram": false
+    },
+    "byrett": {
+      "points": 6,
+      "panagram": false
+    },
+    "byst": {
+      "points": 1,
+      "panagram": false
+    },
+    "byta": {
+      "points": 1,
+      "panagram": false
+    },
+    "bytbar": {
+      "points": 6,
+      "panagram": false
+    },
+    "byte": {
+      "points": 1,
+      "panagram": false
+    },
+    "bytta": {
+      "points": 5,
+      "panagram": false
+    },
+    "rybs": {
+      "points": 1,
+      "panagram": false
+    },
+    "rysa": {
+      "points": 1,
+      "panagram": false
+    },
+    "rysare": {
+      "points": 6,
+      "panagram": false
+    },
+    "ryss": {
+      "points": 1,
+      "panagram": false
+    },
+    "ryta": {
+      "points": 1,
+      "panagram": false
+    },
+    "ryttare": {
+      "points": 7,
+      "panagram": false
+    },
+    "ryttarstaty": {
+      "points": 11,
+      "panagram": false
+    },
+    "satsyta": {
+      "points": 7,
+      "panagram": false
+    },
+    "satyr": {
+      "points": 5,
+      "panagram": false
+    },
+    "staty": {
+      "points": 5,
+      "panagram": false
+    },
+    "statyett": {
+      "points": 8,
+      "panagram": false
+    },
+    "stayer": {
+      "points": 6,
+      "panagram": false
+    },
+    "stybb": {
+      "points": 5,
+      "panagram": false
+    },
+    "stybba": {
+      "points": 6,
+      "panagram": false
+    },
+    "stybbe": {
+      "points": 6,
+      "panagram": false
+    },
+    "styr": {
+      "points": 1,
+      "panagram": false
+    },
+    "styra": {
+      "points": 5,
+      "panagram": false
+    },
+    "styrare": {
+      "points": 7,
+      "panagram": false
+    },
+    "styrbar": {
+      "points": 7,
+      "panagram": false
+    },
+    "styre": {
+      "points": 5,
+      "panagram": false
+    },
+    "syra": {
+      "points": 1,
+      "panagram": false
+    },
+    "syre": {
+      "points": 1,
+      "panagram": false
+    },
+    "syrra": {
+      "points": 5,
+      "panagram": false
+    },
+    "syrsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "syster": {
+      "points": 6,
+      "panagram": false
+    },
+    "terabyte": {
+      "points": 8,
+      "panagram": false
+    },
+    "tryta": {
+      "points": 5,
+      "panagram": false
+    },
+    "tyst": {
+      "points": 1,
+      "panagram": false
+    },
+    "tysta": {
+      "points": 5,
+      "panagram": false
+    },
+    "ysta": {
+      "points": 1,
+      "panagram": false
+    },
+    "ystare": {
+      "points": 6,
+      "panagram": false
+    },
+    "yste": {
+      "points": 1,
+      "panagram": false
+    },
+    "yster": {
+      "points": 5,
+      "panagram": false
+    },
+    "ytter": {
+      "points": 5,
+      "panagram": false
+    },
+    "yttersats": {
+      "points": 9,
+      "panagram": false
+    },
+    "ytterst": {
+      "points": 7,
+      "panagram": false
+    },
+    "yttersta": {
+      "points": 8,
+      "panagram": false
+    },
+    "yttra": {
+      "points": 5,
+      "panagram": false
+    },
+    "yttre": {
+      "points": 5,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-21",
   "characters": {
     "fixed": "p",
