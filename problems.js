@@ -1,5 +1,298 @@
 window.problems = [
 	{
+  "date": "2022-04-23",
+  "characters": {
+    "fixed": "v",
+    "optional": [
+      "d",
+      "r",
+      "g",
+      "e",
+      "n",
+      "i"
+    ]
+  },
+  "total_score": 446,
+  "words": {
+    "derivering": {
+      "points": 17,
+      "panagram": true
+    },
+    "digivning": {
+      "points": 9,
+      "panagram": false
+    },
+    "dividend": {
+      "points": 8,
+      "panagram": false
+    },
+    "divig": {
+      "points": 5,
+      "panagram": false
+    },
+    "drev": {
+      "points": 1,
+      "panagram": false
+    },
+    "drever": {
+      "points": 6,
+      "panagram": false
+    },
+    "drevning": {
+      "points": 15,
+      "panagram": true
+    },
+    "driv": {
+      "points": 1,
+      "panagram": false
+    },
+    "drive": {
+      "points": 5,
+      "panagram": false
+    },
+    "driven": {
+      "points": 6,
+      "panagram": false
+    },
+    "driver": {
+      "points": 6,
+      "panagram": false
+    },
+    "drivning": {
+      "points": 8,
+      "panagram": false
+    },
+    "drivved": {
+      "points": 7,
+      "panagram": false
+    },
+    "endiv": {
+      "points": 5,
+      "panagram": false
+    },
+    "envig": {
+      "points": 5,
+      "panagram": false
+    },
+    "evergreen": {
+      "points": 9,
+      "panagram": false
+    },
+    "evig": {
+      "points": 1,
+      "panagram": false
+    },
+    "gendrivning": {
+      "points": 18,
+      "panagram": true
+    },
+    "genever": {
+      "points": 7,
+      "panagram": false
+    },
+    "given": {
+      "points": 5,
+      "panagram": false
+    },
+    "greve": {
+      "points": 5,
+      "panagram": false
+    },
+    "individ": {
+      "points": 7,
+      "panagram": false
+    },
+    "indrivning": {
+      "points": 10,
+      "panagram": false
+    },
+    "innervering": {
+      "points": 11,
+      "panagram": false
+    },
+    "invid": {
+      "points": 5,
+      "panagram": false
+    },
+    "invigning": {
+      "points": 9,
+      "panagram": false
+    },
+    "iver": {
+      "points": 1,
+      "panagram": false
+    },
+    "ivrig": {
+      "points": 5,
+      "panagram": false
+    },
+    "nedriven": {
+      "points": 8,
+      "panagram": false
+    },
+    "nedrivning": {
+      "points": 17,
+      "panagram": true
+    },
+    "nerv": {
+      "points": 1,
+      "panagram": false
+    },
+    "nervig": {
+      "points": 6,
+      "panagram": false
+    },
+    "revider": {
+      "points": 7,
+      "panagram": false
+    },
+    "revidering": {
+      "points": 17,
+      "panagram": true
+    },
+    "revig": {
+      "points": 5,
+      "panagram": false
+    },
+    "revir": {
+      "points": 5,
+      "panagram": false
+    },
+    "revning": {
+      "points": 7,
+      "panagram": false
+    },
+    "ringrev": {
+      "points": 7,
+      "panagram": false
+    },
+    "riveri": {
+      "points": 6,
+      "panagram": false
+    },
+    "rivig": {
+      "points": 5,
+      "panagram": false
+    },
+    "rivning": {
+      "points": 7,
+      "panagram": false
+    },
+    "vender": {
+      "points": 6,
+      "panagram": false
+    },
+    "verv": {
+      "points": 1,
+      "panagram": false
+    },
+    "vevning": {
+      "points": 7,
+      "panagram": false
+    },
+    "vidd": {
+      "points": 1,
+      "panagram": false
+    },
+    "vide": {
+      "points": 1,
+      "panagram": false
+    },
+    "vidgning": {
+      "points": 8,
+      "panagram": false
+    },
+    "vidi": {
+      "points": 1,
+      "panagram": false
+    },
+    "vidrig": {
+      "points": 6,
+      "panagram": false
+    },
+    "vigg": {
+      "points": 1,
+      "panagram": false
+    },
+    "vigge": {
+      "points": 5,
+      "panagram": false
+    },
+    "vigning": {
+      "points": 7,
+      "panagram": false
+    },
+    "vind": {
+      "points": 1,
+      "panagram": false
+    },
+    "vinddriven": {
+      "points": 10,
+      "panagram": false
+    },
+    "vindenergi": {
+      "points": 17,
+      "panagram": true
+    },
+    "vindning": {
+      "points": 8,
+      "panagram": false
+    },
+    "vindvridning": {
+      "points": 12,
+      "panagram": false
+    },
+    "ving": {
+      "points": 1,
+      "panagram": false
+    },
+    "vinge": {
+      "points": 5,
+      "panagram": false
+    },
+    "vinn": {
+      "points": 1,
+      "panagram": false
+    },
+    "vinning": {
+      "points": 7,
+      "panagram": false
+    },
+    "virning": {
+      "points": 7,
+      "panagram": false
+    },
+    "virrig": {
+      "points": 6,
+      "panagram": false
+    },
+    "vivendi": {
+      "points": 7,
+      "panagram": false
+    },
+    "vivre": {
+      "points": 5,
+      "panagram": false
+    },
+    "vred": {
+      "points": 1,
+      "panagram": false
+    },
+    "vrede": {
+      "points": 5,
+      "panagram": false
+    },
+    "vriden": {
+      "points": 6,
+      "panagram": false
+    },
+    "vridning": {
+      "points": 8,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-22",
   "characters": {
     "fixed": "y",
