@@ -1,5 +1,238 @@
 window.problems = [
 	{
+  "date": "2022-04-24",
+  "characters": {
+    "fixed": "m",
+    "optional": [
+      "v",
+      "g",
+      "e",
+      "s",
+      "r",
+      "a"
+    ]
+  },
+  "total_score": 244,
+  "words": {
+    "amma": {
+      "points": 1,
+      "panagram": false
+    },
+    "amsaga": {
+      "points": 6,
+      "panagram": false
+    },
+    "armera": {
+      "points": 6,
+      "panagram": false
+    },
+    "arvsmassa": {
+      "points": 9,
+      "panagram": false
+    },
+    "asgam": {
+      "points": 5,
+      "panagram": false
+    },
+    "emma": {
+      "points": 1,
+      "panagram": false
+    },
+    "gama": {
+      "points": 1,
+      "panagram": false
+    },
+    "game": {
+      "points": 1,
+      "panagram": false
+    },
+    "gamma": {
+      "points": 5,
+      "panagram": false
+    },
+    "gems": {
+      "points": 1,
+      "panagram": false
+    },
+    "gram": {
+      "points": 1,
+      "panagram": false
+    },
+    "gramse": {
+      "points": 6,
+      "panagram": false
+    },
+    "mage": {
+      "points": 1,
+      "panagram": false
+    },
+    "mager": {
+      "points": 5,
+      "panagram": false
+    },
+    "magma": {
+      "points": 5,
+      "panagram": false
+    },
+    "magra": {
+      "points": 5,
+      "panagram": false
+    },
+    "mamma": {
+      "points": 5,
+      "panagram": false
+    },
+    "mara": {
+      "points": 1,
+      "panagram": false
+    },
+    "mars": {
+      "points": 1,
+      "panagram": false
+    },
+    "masa": {
+      "points": 1,
+      "panagram": false
+    },
+    "maser": {
+      "points": 5,
+      "panagram": false
+    },
+    "massa": {
+      "points": 5,
+      "panagram": false
+    },
+    "massage": {
+      "points": 7,
+      "panagram": false
+    },
+    "massera": {
+      "points": 7,
+      "panagram": false
+    },
+    "massgrav": {
+      "points": 8,
+      "panagram": false
+    },
+    "memma": {
+      "points": 5,
+      "panagram": false
+    },
+    "mess": {
+      "points": 1,
+      "panagram": false
+    },
+    "messa": {
+      "points": 5,
+      "panagram": false
+    },
+    "rama": {
+      "points": 1,
+      "panagram": false
+    },
+    "ramm": {
+      "points": 1,
+      "panagram": false
+    },
+    "ramma": {
+      "points": 5,
+      "panagram": false
+    },
+    "rams": {
+      "points": 1,
+      "panagram": false
+    },
+    "ramsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "rasmassa": {
+      "points": 8,
+      "panagram": false
+    },
+    "rema": {
+      "points": 1,
+      "panagram": false
+    },
+    "remmare": {
+      "points": 7,
+      "panagram": false
+    },
+    "remsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "samarv": {
+      "points": 6,
+      "panagram": false
+    },
+    "samarva": {
+      "points": 7,
+      "panagram": false
+    },
+    "same": {
+      "points": 1,
+      "panagram": false
+    },
+    "samma": {
+      "points": 5,
+      "panagram": false
+    },
+    "samme": {
+      "points": 5,
+      "panagram": false
+    },
+    "samregera": {
+      "points": 9,
+      "panagram": false
+    },
+    "sams": {
+      "points": 1,
+      "panagram": false
+    },
+    "samsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "samsas": {
+      "points": 6,
+      "panagram": false
+    },
+    "semem": {
+      "points": 5,
+      "panagram": false
+    },
+    "servegame": {
+      "points": 16,
+      "panagram": true
+    },
+    "sesam": {
+      "points": 5,
+      "panagram": false
+    },
+    "smegma": {
+      "points": 6,
+      "panagram": false
+    },
+    "varm": {
+      "points": 1,
+      "panagram": false
+    },
+    "varmgarage": {
+      "points": 10,
+      "panagram": false
+    },
+    "varsam": {
+      "points": 6,
+      "panagram": false
+    },
+    "vevarm": {
+      "points": 6,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-23",
   "characters": {
     "fixed": "v",
