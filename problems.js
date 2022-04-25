@@ -1,5 +1,238 @@
 window.problems = [
 	{
+  "date": "2022-04-25",
+  "characters": {
+    "fixed": "u",
+    "optional": [
+      "g",
+      "e",
+      "d",
+      "s",
+      "n",
+      "a"
+    ]
+  },
+  "total_score": 254,
+  "words": {
+    "andunge": {
+      "points": 7,
+      "panagram": false
+    },
+    "anus": {
+      "points": 1,
+      "panagram": false
+    },
+    "danssugen": {
+      "points": 16,
+      "panagram": true
+    },
+    "duande": {
+      "points": 6,
+      "panagram": false
+    },
+    "duenna": {
+      "points": 6,
+      "panagram": false
+    },
+    "duga": {
+      "points": 1,
+      "panagram": false
+    },
+    "dugande": {
+      "points": 7,
+      "panagram": false
+    },
+    "dugg": {
+      "points": 1,
+      "panagram": false
+    },
+    "dugga": {
+      "points": 5,
+      "panagram": false
+    },
+    "dunge": {
+      "points": 5,
+      "panagram": false
+    },
+    "duns": {
+      "points": 1,
+      "panagram": false
+    },
+    "dunsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "dununge": {
+      "points": 7,
+      "panagram": false
+    },
+    "gasugn": {
+      "points": 6,
+      "panagram": false
+    },
+    "gauss": {
+      "points": 5,
+      "panagram": false
+    },
+    "genua": {
+      "points": 5,
+      "panagram": false
+    },
+    "genus": {
+      "points": 5,
+      "panagram": false
+    },
+    "gnugga": {
+      "points": 6,
+      "panagram": false
+    },
+    "gudasaga": {
+      "points": 8,
+      "panagram": false
+    },
+    "gudunge": {
+      "points": 7,
+      "panagram": false
+    },
+    "gung": {
+      "points": 1,
+      "panagram": false
+    },
+    "gunga": {
+      "points": 5,
+      "panagram": false
+    },
+    "guss": {
+      "points": 1,
+      "panagram": false
+    },
+    "nudda": {
+      "points": 5,
+      "panagram": false
+    },
+    "nuna": {
+      "points": 1,
+      "panagram": false
+    },
+    "nunna": {
+      "points": 5,
+      "panagram": false
+    },
+    "sauna": {
+      "points": 5,
+      "panagram": false
+    },
+    "snudd": {
+      "points": 5,
+      "panagram": false
+    },
+    "snudda": {
+      "points": 6,
+      "panagram": false
+    },
+    "snugga": {
+      "points": 6,
+      "panagram": false
+    },
+    "snus": {
+      "points": 1,
+      "panagram": false
+    },
+    "snusa": {
+      "points": 5,
+      "panagram": false
+    },
+    "snusande": {
+      "points": 8,
+      "panagram": false
+    },
+    "snusen": {
+      "points": 6,
+      "panagram": false
+    },
+    "sudanes": {
+      "points": 7,
+      "panagram": false
+    },
+    "sudd": {
+      "points": 1,
+      "panagram": false
+    },
+    "sudda": {
+      "points": 5,
+      "panagram": false
+    },
+    "suga": {
+      "points": 1,
+      "panagram": false
+    },
+    "sugande": {
+      "points": 14,
+      "panagram": true
+    },
+    "sugen": {
+      "points": 5,
+      "panagram": false
+    },
+    "sugga": {
+      "points": 5,
+      "panagram": false
+    },
+    "sund": {
+      "points": 1,
+      "panagram": false
+    },
+    "sunna": {
+      "points": 5,
+      "panagram": false
+    },
+    "sunnan": {
+      "points": 6,
+      "panagram": false
+    },
+    "susa": {
+      "points": 1,
+      "panagram": false
+    },
+    "susen": {
+      "points": 5,
+      "panagram": false
+    },
+    "sussa": {
+      "points": 5,
+      "panagram": false
+    },
+    "udda": {
+      "points": 1,
+      "panagram": false
+    },
+    "uddad": {
+      "points": 5,
+      "panagram": false
+    },
+    "udde": {
+      "points": 1,
+      "panagram": false
+    },
+    "undan": {
+      "points": 5,
+      "panagram": false
+    },
+    "undseende": {
+      "points": 9,
+      "panagram": false
+    },
+    "unge": {
+      "points": 1,
+      "panagram": false
+    },
+    "unna": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-24",
   "characters": {
     "fixed": "m",
