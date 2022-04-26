@@ -1,5 +1,334 @@
 window.problems = [
 	{
+  "date": "2022-04-26",
+  "characters": {
+    "fixed": "p",
+    "optional": [
+      "g",
+      "e",
+      "n",
+      "t",
+      "l",
+      "a"
+    ]
+  },
+  "total_score": 422,
+  "words": {
+    "agape": {
+      "points": 5,
+      "panagram": false
+    },
+    "apanage": {
+      "points": 7,
+      "panagram": false
+    },
+    "apel": {
+      "points": 1,
+      "panagram": false
+    },
+    "appa": {
+      "points": 1,
+      "panagram": false
+    },
+    "appell": {
+      "points": 6,
+      "panagram": false
+    },
+    "appellant": {
+      "points": 9,
+      "panagram": false
+    },
+    "elplatta": {
+      "points": 8,
+      "panagram": false
+    },
+    "etapp": {
+      "points": 5,
+      "panagram": false
+    },
+    "galenpanna": {
+      "points": 10,
+      "panagram": false
+    },
+    "gapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "getapel": {
+      "points": 7,
+      "panagram": false
+    },
+    "glapp": {
+      "points": 5,
+      "panagram": false
+    },
+    "glappa": {
+      "points": 6,
+      "panagram": false
+    },
+    "lapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "lapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "lappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "napp": {
+      "points": 1,
+      "panagram": false
+    },
+    "nappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "nappatag": {
+      "points": 8,
+      "panagram": false
+    },
+    "paella": {
+      "points": 6,
+      "panagram": false
+    },
+    "page": {
+      "points": 1,
+      "panagram": false
+    },
+    "palatal": {
+      "points": 7,
+      "panagram": false
+    },
+    "palett": {
+      "points": 6,
+      "panagram": false
+    },
+    "pall": {
+      "points": 1,
+      "panagram": false
+    },
+    "palla": {
+      "points": 5,
+      "panagram": false
+    },
+    "palp": {
+      "points": 1,
+      "panagram": false
+    },
+    "palt": {
+      "points": 1,
+      "panagram": false
+    },
+    "palta": {
+      "points": 5,
+      "panagram": false
+    },
+    "panel": {
+      "points": 5,
+      "panagram": false
+    },
+    "panela": {
+      "points": 6,
+      "panagram": false
+    },
+    "panett": {
+      "points": 6,
+      "panagram": false
+    },
+    "pang": {
+      "points": 1,
+      "panagram": false
+    },
+    "panga": {
+      "points": 5,
+      "panagram": false
+    },
+    "pangpang": {
+      "points": 8,
+      "panagram": false
+    },
+    "panna": {
+      "points": 5,
+      "panagram": false
+    },
+    "pannlapp": {
+      "points": 8,
+      "panagram": false
+    },
+    "pant": {
+      "points": 1,
+      "panagram": false
+    },
+    "panta": {
+      "points": 5,
+      "panagram": false
+    },
+    "papp": {
+      "points": 1,
+      "panagram": false
+    },
+    "pappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "pata": {
+      "points": 1,
+      "panagram": false
+    },
+    "patella": {
+      "points": 7,
+      "panagram": false
+    },
+    "paten": {
+      "points": 5,
+      "panagram": false
+    },
+    "patent": {
+      "points": 6,
+      "panagram": false
+    },
+    "patentlag": {
+      "points": 16,
+      "panagram": true
+    },
+    "patt": {
+      "points": 1,
+      "panagram": false
+    },
+    "patta": {
+      "points": 5,
+      "panagram": false
+    },
+    "patte": {
+      "points": 5,
+      "panagram": false
+    },
+    "peang": {
+      "points": 5,
+      "panagram": false
+    },
+    "pegel": {
+      "points": 5,
+      "panagram": false
+    },
+    "pellet": {
+      "points": 6,
+      "panagram": false
+    },
+    "pellett": {
+      "points": 7,
+      "panagram": false
+    },
+    "penal": {
+      "points": 5,
+      "panagram": false
+    },
+    "peng": {
+      "points": 1,
+      "panagram": false
+    },
+    "penna": {
+      "points": 5,
+      "panagram": false
+    },
+    "pennal": {
+      "points": 6,
+      "panagram": false
+    },
+    "penne": {
+      "points": 5,
+      "panagram": false
+    },
+    "pentan": {
+      "points": 6,
+      "panagram": false
+    },
+    "peppa": {
+      "points": 5,
+      "panagram": false
+    },
+    "peta": {
+      "points": 1,
+      "panagram": false
+    },
+    "plage": {
+      "points": 5,
+      "panagram": false
+    },
+    "plagg": {
+      "points": 5,
+      "panagram": false
+    },
+    "plan": {
+      "points": 1,
+      "panagram": false
+    },
+    "plana": {
+      "points": 5,
+      "panagram": false
+    },
+    "planet": {
+      "points": 6,
+      "panagram": false
+    },
+    "planta": {
+      "points": 6,
+      "panagram": false
+    },
+    "plantage": {
+      "points": 15,
+      "panagram": true
+    },
+    "platan": {
+      "points": 6,
+      "panagram": false
+    },
+    "platt": {
+      "points": 5,
+      "panagram": false
+    },
+    "platta": {
+      "points": 6,
+      "panagram": false
+    },
+    "tallplanta": {
+      "points": 10,
+      "panagram": false
+    },
+    "tangentplan": {
+      "points": 18,
+      "panagram": true
+    },
+    "tapet": {
+      "points": 5,
+      "panagram": false
+    },
+    "tapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "tappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "tappt": {
+      "points": 5,
+      "panagram": false
+    },
+    "tegelpanna": {
+      "points": 17,
+      "panagram": true
+    },
+    "teplantage": {
+      "points": 17,
+      "panagram": true
+    }
+  }
+},
+	{
   "date": "2022-04-25",
   "characters": {
     "fixed": "u",
