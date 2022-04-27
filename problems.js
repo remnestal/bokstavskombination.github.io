@@ -1,5 +1,358 @@
 window.problems = [
 	{
+  "date": "2022-04-27",
+  "characters": {
+    "fixed": "m",
+    "optional": [
+      "p",
+      "k",
+      "t",
+      "l",
+      "o",
+      "a"
+    ]
+  },
+  "total_score": 361,
+  "words": {
+    "allmakt": {
+      "points": 7,
+      "panagram": false
+    },
+    "allom": {
+      "points": 5,
+      "panagram": false
+    },
+    "amko": {
+      "points": 1,
+      "panagram": false
+    },
+    "amma": {
+      "points": 1,
+      "panagram": false
+    },
+    "amok": {
+      "points": 1,
+      "panagram": false
+    },
+    "atom": {
+      "points": 1,
+      "panagram": false
+    },
+    "kallmat": {
+      "points": 7,
+      "panagram": false
+    },
+    "kamma": {
+      "points": 5,
+      "panagram": false
+    },
+    "kamp": {
+      "points": 1,
+      "panagram": false
+    },
+    "kattmat": {
+      "points": 7,
+      "panagram": false
+    },
+    "klam": {
+      "points": 1,
+      "panagram": false
+    },
+    "klamma": {
+      "points": 6,
+      "panagram": false
+    },
+    "klamp": {
+      "points": 5,
+      "panagram": false
+    },
+    "klampa": {
+      "points": 6,
+      "panagram": false
+    },
+    "klotlampa": {
+      "points": 16,
+      "panagram": true
+    },
+    "kolatom": {
+      "points": 7,
+      "panagram": false
+    },
+    "kolm": {
+      "points": 1,
+      "panagram": false
+    },
+    "koma": {
+      "points": 1,
+      "panagram": false
+    },
+    "komma": {
+      "points": 5,
+      "panagram": false
+    },
+    "komp": {
+      "points": 1,
+      "panagram": false
+    },
+    "kompa": {
+      "points": 5,
+      "panagram": false
+    },
+    "kompakt": {
+      "points": 7,
+      "panagram": false
+    },
+    "komplott": {
+      "points": 8,
+      "panagram": false
+    },
+    "kompott": {
+      "points": 7,
+      "panagram": false
+    },
+    "lama": {
+      "points": 1,
+      "panagram": false
+    },
+    "lamm": {
+      "points": 1,
+      "panagram": false
+    },
+    "lamma": {
+      "points": 5,
+      "panagram": false
+    },
+    "lampa": {
+      "points": 5,
+      "panagram": false
+    },
+    "loma": {
+      "points": 1,
+      "panagram": false
+    },
+    "lomma": {
+      "points": 5,
+      "panagram": false
+    },
+    "maka": {
+      "points": 1,
+      "panagram": false
+    },
+    "makak": {
+      "points": 5,
+      "panagram": false
+    },
+    "mako": {
+      "points": 1,
+      "panagram": false
+    },
+    "makt": {
+      "points": 1,
+      "panagram": false
+    },
+    "maktkamp": {
+      "points": 8,
+      "panagram": false
+    },
+    "mala": {
+      "points": 1,
+      "panagram": false
+    },
+    "mall": {
+      "points": 1,
+      "panagram": false
+    },
+    "malla": {
+      "points": 5,
+      "panagram": false
+    },
+    "malm": {
+      "points": 1,
+      "panagram": false
+    },
+    "malma": {
+      "points": 5,
+      "panagram": false
+    },
+    "malt": {
+      "points": 1,
+      "panagram": false
+    },
+    "mamma": {
+      "points": 5,
+      "panagram": false
+    },
+    "mapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "mata": {
+      "points": 1,
+      "panagram": false
+    },
+    "matmamma": {
+      "points": 8,
+      "panagram": false
+    },
+    "matt": {
+      "points": 1,
+      "panagram": false
+    },
+    "matta": {
+      "points": 5,
+      "panagram": false
+    },
+    "mola": {
+      "points": 1,
+      "panagram": false
+    },
+    "moll": {
+      "points": 1,
+      "panagram": false
+    },
+    "molo": {
+      "points": 1,
+      "panagram": false
+    },
+    "molok": {
+      "points": 5,
+      "panagram": false
+    },
+    "mopp": {
+      "points": 1,
+      "panagram": false
+    },
+    "moppa": {
+      "points": 5,
+      "panagram": false
+    },
+    "mota": {
+      "points": 1,
+      "panagram": false
+    },
+    "motpol": {
+      "points": 6,
+      "panagram": false
+    },
+    "mott": {
+      "points": 1,
+      "panagram": false
+    },
+    "motta": {
+      "points": 5,
+      "panagram": false
+    },
+    "motto": {
+      "points": 5,
+      "panagram": false
+    },
+    "omak": {
+      "points": 1,
+      "panagram": false
+    },
+    "omaka": {
+      "points": 5,
+      "panagram": false
+    },
+    "omkok": {
+      "points": 5,
+      "panagram": false
+    },
+    "omkomma": {
+      "points": 7,
+      "panagram": false
+    },
+    "omkoppla": {
+      "points": 8,
+      "panagram": false
+    },
+    "omlopp": {
+      "points": 6,
+      "panagram": false
+    },
+    "omlott": {
+      "points": 6,
+      "panagram": false
+    },
+    "omlottkappa": {
+      "points": 18,
+      "panagram": true
+    },
+    "omtal": {
+      "points": 5,
+      "panagram": false
+    },
+    "omtala": {
+      "points": 6,
+      "panagram": false
+    },
+    "omtolka": {
+      "points": 7,
+      "panagram": false
+    },
+    "palm": {
+      "points": 1,
+      "panagram": false
+    },
+    "palma": {
+      "points": 5,
+      "panagram": false
+    },
+    "paltkoma": {
+      "points": 15,
+      "panagram": true
+    },
+    "pamp": {
+      "points": 1,
+      "panagram": false
+    },
+    "pomp": {
+      "points": 1,
+      "panagram": false
+    },
+    "pompa": {
+      "points": 5,
+      "panagram": false
+    },
+    "taklampa": {
+      "points": 8,
+      "panagram": false
+    },
+    "tallmo": {
+      "points": 6,
+      "panagram": false
+    },
+    "tamkatt": {
+      "points": 7,
+      "panagram": false
+    },
+    "tamp": {
+      "points": 1,
+      "panagram": false
+    },
+    "tamtam": {
+      "points": 6,
+      "panagram": false
+    },
+    "tomat": {
+      "points": 5,
+      "panagram": false
+    },
+    "tomt": {
+      "points": 1,
+      "panagram": false
+    },
+    "tomta": {
+      "points": 5,
+      "panagram": false
+    },
+    "totomat": {
+      "points": 7,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-26",
   "characters": {
     "fixed": "p",
