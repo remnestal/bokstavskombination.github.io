@@ -1,5 +1,222 @@
 window.problems = [
 	{
+  "date": "2022-04-28",
+  "characters": {
+    "fixed": "y",
+    "optional": [
+      "g",
+      "i",
+      "s",
+      "t",
+      "n",
+      "a"
+    ]
+  },
+  "total_score": 273,
+  "words": {
+    "gynna": {
+      "points": 5,
+      "panagram": false
+    },
+    "insyn": {
+      "points": 5,
+      "panagram": false
+    },
+    "intyg": {
+      "points": 5,
+      "panagram": false
+    },
+    "intyga": {
+      "points": 6,
+      "panagram": false
+    },
+    "isyning": {
+      "points": 7,
+      "panagram": false
+    },
+    "isyta": {
+      "points": 5,
+      "panagram": false
+    },
+    "nyans": {
+      "points": 5,
+      "panagram": false
+    },
+    "nying": {
+      "points": 5,
+      "panagram": false
+    },
+    "nyinsatt": {
+      "points": 8,
+      "panagram": false
+    },
+    "nyis": {
+      "points": 1,
+      "panagram": false
+    },
+    "nynna": {
+      "points": 5,
+      "panagram": false
+    },
+    "nysa": {
+      "points": 1,
+      "panagram": false
+    },
+    "nysatsning": {
+      "points": 17,
+      "panagram": true
+    },
+    "nysatt": {
+      "points": 6,
+      "panagram": false
+    },
+    "nysning": {
+      "points": 7,
+      "panagram": false
+    },
+    "nyss": {
+      "points": 1,
+      "panagram": false
+    },
+    "nysta": {
+      "points": 5,
+      "panagram": false
+    },
+    "nystan": {
+      "points": 6,
+      "panagram": false
+    },
+    "nystning": {
+      "points": 8,
+      "panagram": false
+    },
+    "nytta": {
+      "points": 5,
+      "panagram": false
+    },
+    "nyttig": {
+      "points": 6,
+      "panagram": false
+    },
+    "satsyta": {
+      "points": 7,
+      "panagram": false
+    },
+    "sattyg": {
+      "points": 6,
+      "panagram": false
+    },
+    "snittyta": {
+      "points": 8,
+      "panagram": false
+    },
+    "snygg": {
+      "points": 5,
+      "panagram": false
+    },
+    "snygga": {
+      "points": 6,
+      "panagram": false
+    },
+    "snygging": {
+      "points": 8,
+      "panagram": false
+    },
+    "snyta": {
+      "points": 5,
+      "panagram": false
+    },
+    "snyting": {
+      "points": 7,
+      "panagram": false
+    },
+    "snytning": {
+      "points": 8,
+      "panagram": false
+    },
+    "statsnytta": {
+      "points": 10,
+      "panagram": false
+    },
+    "staty": {
+      "points": 5,
+      "panagram": false
+    },
+    "stygg": {
+      "points": 5,
+      "panagram": false
+    },
+    "stygging": {
+      "points": 8,
+      "panagram": false
+    },
+    "stygn": {
+      "points": 5,
+      "panagram": false
+    },
+    "styng": {
+      "points": 5,
+      "panagram": false
+    },
+    "syna": {
+      "points": 1,
+      "panagram": false
+    },
+    "synas": {
+      "points": 5,
+      "panagram": false
+    },
+    "syning": {
+      "points": 6,
+      "panagram": false
+    },
+    "synt": {
+      "points": 1,
+      "panagram": false
+    },
+    "syntig": {
+      "points": 6,
+      "panagram": false
+    },
+    "tyna": {
+      "points": 1,
+      "panagram": false
+    },
+    "tynga": {
+      "points": 5,
+      "panagram": false
+    },
+    "tyngst": {
+      "points": 6,
+      "panagram": false
+    },
+    "tyst": {
+      "points": 1,
+      "panagram": false
+    },
+    "tysta": {
+      "points": 5,
+      "panagram": false
+    },
+    "tystna": {
+      "points": 6,
+      "panagram": false
+    },
+    "yngst": {
+      "points": 5,
+      "panagram": false
+    },
+    "ysta": {
+      "points": 1,
+      "panagram": false
+    },
+    "ystning": {
+      "points": 7,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-27",
   "characters": {
     "fixed": "m",
