@@ -1,5 +1,266 @@
 window.problems = [
 	{
+  "date": "2022-04-29",
+  "characters": {
+    "fixed": "f",
+    "optional": [
+      "o",
+      "i",
+      "n",
+      "g",
+      "l",
+      "a"
+    ]
+  },
+  "total_score": 321,
+  "words": {
+    "alfa": {
+      "points": 1,
+      "panagram": false
+    },
+    "alfalfa": {
+      "points": 7,
+      "panagram": false
+    },
+    "allofon": {
+      "points": 7,
+      "panagram": false
+    },
+    "anfall": {
+      "points": 6,
+      "panagram": false
+    },
+    "anfalla": {
+      "points": 7,
+      "panagram": false
+    },
+    "anfang": {
+      "points": 6,
+      "panagram": false
+    },
+    "anglofil": {
+      "points": 15,
+      "panagram": true
+    },
+    "faga": {
+      "points": 1,
+      "panagram": false
+    },
+    "falang": {
+      "points": 6,
+      "panagram": false
+    },
+    "fall": {
+      "points": 1,
+      "panagram": false
+    },
+    "falla": {
+      "points": 5,
+      "panagram": false
+    },
+    "falna": {
+      "points": 5,
+      "panagram": false
+    },
+    "fana": {
+      "points": 1,
+      "panagram": false
+    },
+    "fann": {
+      "points": 1,
+      "panagram": false
+    },
+    "fial": {
+      "points": 1,
+      "panagram": false
+    },
+    "fiffa": {
+      "points": 5,
+      "panagram": false
+    },
+    "fiffig": {
+      "points": 6,
+      "panagram": false
+    },
+    "fiffla": {
+      "points": 6,
+      "panagram": false
+    },
+    "fila": {
+      "points": 1,
+      "panagram": false
+    },
+    "filial": {
+      "points": 6,
+      "panagram": false
+    },
+    "filning": {
+      "points": 7,
+      "panagram": false
+    },
+    "filolog": {
+      "points": 7,
+      "panagram": false
+    },
+    "filologi": {
+      "points": 8,
+      "panagram": false
+    },
+    "final": {
+      "points": 5,
+      "panagram": false
+    },
+    "finallag": {
+      "points": 8,
+      "panagram": false
+    },
+    "finfin": {
+      "points": 6,
+      "panagram": false
+    },
+    "finna": {
+      "points": 5,
+      "panagram": false
+    },
+    "finnig": {
+      "points": 6,
+      "panagram": false
+    },
+    "fiol": {
+      "points": 1,
+      "panagram": false
+    },
+    "flaga": {
+      "points": 5,
+      "panagram": false
+    },
+    "flagg": {
+      "points": 5,
+      "panagram": false
+    },
+    "flagga": {
+      "points": 6,
+      "panagram": false
+    },
+    "flagglina": {
+      "points": 9,
+      "panagram": false
+    },
+    "flaggning": {
+      "points": 9,
+      "panagram": false
+    },
+    "flagig": {
+      "points": 6,
+      "panagram": false
+    },
+    "flagna": {
+      "points": 6,
+      "panagram": false
+    },
+    "flin": {
+      "points": 1,
+      "panagram": false
+    },
+    "flina": {
+      "points": 5,
+      "panagram": false
+    },
+    "fling": {
+      "points": 5,
+      "panagram": false
+    },
+    "flinga": {
+      "points": 6,
+      "panagram": false
+    },
+    "flinig": {
+      "points": 6,
+      "panagram": false
+    },
+    "foga": {
+      "points": 1,
+      "panagram": false
+    },
+    "foglig": {
+      "points": 6,
+      "panagram": false
+    },
+    "fogning": {
+      "points": 7,
+      "panagram": false
+    },
+    "folio": {
+      "points": 5,
+      "panagram": false
+    },
+    "fonolog": {
+      "points": 7,
+      "panagram": false
+    },
+    "fonologi": {
+      "points": 8,
+      "panagram": false
+    },
+    "gaffla": {
+      "points": 6,
+      "panagram": false
+    },
+    "golf": {
+      "points": 1,
+      "panagram": false
+    },
+    "golfa": {
+      "points": 5,
+      "panagram": false
+    },
+    "iallafall": {
+      "points": 9,
+      "panagram": false
+    },
+    "ifall": {
+      "points": 5,
+      "panagram": false
+    },
+    "infall": {
+      "points": 6,
+      "panagram": false
+    },
+    "infalla": {
+      "points": 7,
+      "panagram": false
+    },
+    "infinna": {
+      "points": 7,
+      "panagram": false
+    },
+    "info": {
+      "points": 1,
+      "panagram": false
+    },
+    "infoga": {
+      "points": 6,
+      "panagram": false
+    },
+    "infogning": {
+      "points": 9,
+      "panagram": false
+    },
+    "loggfil": {
+      "points": 7,
+      "panagram": false
+    },
+    "ofin": {
+      "points": 1,
+      "panagram": false
+    },
+    "ofog": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-28",
   "characters": {
     "fixed": "y",
