@@ -1,5 +1,374 @@
 window.problems = [
 	{
+  "date": "2022-04-30",
+  "characters": {
+    "fixed": "i",
+    "optional": [
+      "e",
+      "d",
+      "v",
+      "s",
+      "l",
+      "a"
+    ]
+  },
+  "total_score": 362,
+  "words": {
+    "aids": {
+      "points": 1,
+      "panagram": false
+    },
+    "aiss": {
+      "points": 1,
+      "panagram": false
+    },
+    "alias": {
+      "points": 5,
+      "panagram": false
+    },
+    "allvis": {
+      "points": 6,
+      "panagram": false
+    },
+    "avis": {
+      "points": 1,
+      "panagram": false
+    },
+    "avisa": {
+      "points": 5,
+      "panagram": false
+    },
+    "avlida": {
+      "points": 6,
+      "panagram": false
+    },
+    "avliva": {
+      "points": 6,
+      "panagram": false
+    },
+    "avsides": {
+      "points": 7,
+      "panagram": false
+    },
+    "avvisa": {
+      "points": 6,
+      "panagram": false
+    },
+    "delvis": {
+      "points": 6,
+      "panagram": false
+    },
+    "devis": {
+      "points": 5,
+      "panagram": false
+    },
+    "diesel": {
+      "points": 6,
+      "panagram": false
+    },
+    "dill": {
+      "points": 1,
+      "panagram": false
+    },
+    "dilla": {
+      "points": 5,
+      "panagram": false
+    },
+    "dille": {
+      "points": 5,
+      "panagram": false
+    },
+    "diss": {
+      "points": 1,
+      "panagram": false
+    },
+    "dissa": {
+      "points": 5,
+      "panagram": false
+    },
+    "diva": {
+      "points": 1,
+      "panagram": false
+    },
+    "divis": {
+      "points": 5,
+      "panagram": false
+    },
+    "edil": {
+      "points": 1,
+      "panagram": false
+    },
+    "eiss": {
+      "points": 1,
+      "panagram": false
+    },
+    "idas": {
+      "points": 1,
+      "panagram": false
+    },
+    "ideal": {
+      "points": 5,
+      "panagram": false
+    },
+    "ideell": {
+      "points": 6,
+      "panagram": false
+    },
+    "idel": {
+      "points": 1,
+      "panagram": false
+    },
+    "idissla": {
+      "points": 7,
+      "panagram": false
+    },
+    "illa": {
+      "points": 1,
+      "panagram": false
+    },
+    "isas": {
+      "points": 1,
+      "panagram": false
+    },
+    "lassvis": {
+      "points": 7,
+      "panagram": false
+    },
+    "lias": {
+      "points": 1,
+      "panagram": false
+    },
+    "lida": {
+      "points": 1,
+      "panagram": false
+    },
+    "lidelse": {
+      "points": 7,
+      "panagram": false
+    },
+    "lila": {
+      "points": 1,
+      "panagram": false
+    },
+    "lilla": {
+      "points": 5,
+      "panagram": false
+    },
+    "lille": {
+      "points": 5,
+      "panagram": false
+    },
+    "lisa": {
+      "points": 1,
+      "panagram": false
+    },
+    "lissa": {
+      "points": 5,
+      "panagram": false
+    },
+    "liva": {
+      "points": 1,
+      "panagram": false
+    },
+    "livad": {
+      "points": 5,
+      "panagram": false
+    },
+    "live": {
+      "points": 1,
+      "panagram": false
+    },
+    "livs": {
+      "points": 1,
+      "panagram": false
+    },
+    "livsideal": {
+      "points": 16,
+      "panagram": true
+    },
+    "livsleda": {
+      "points": 15,
+      "panagram": true
+    },
+    "livsval": {
+      "points": 7,
+      "panagram": false
+    },
+    "saliv": {
+      "points": 5,
+      "panagram": false
+    },
+    "salvia": {
+      "points": 6,
+      "panagram": false
+    },
+    "sida": {
+      "points": 1,
+      "panagram": false
+    },
+    "sidled": {
+      "points": 6,
+      "panagram": false
+    },
+    "sidledes": {
+      "points": 8,
+      "panagram": false
+    },
+    "sidvall": {
+      "points": 7,
+      "panagram": false
+    },
+    "sila": {
+      "points": 1,
+      "panagram": false
+    },
+    "sill": {
+      "points": 1,
+      "panagram": false
+    },
+    "sillsallad": {
+      "points": 10,
+      "panagram": false
+    },
+    "sillval": {
+      "points": 7,
+      "panagram": false
+    },
+    "sisa": {
+      "points": 1,
+      "panagram": false
+    },
+    "sisal": {
+      "points": 5,
+      "panagram": false
+    },
+    "siva": {
+      "points": 1,
+      "panagram": false
+    },
+    "sladdis": {
+      "points": 7,
+      "panagram": false
+    },
+    "slid": {
+      "points": 1,
+      "panagram": false
+    },
+    "slida": {
+      "points": 5,
+      "panagram": false
+    },
+    "svallis": {
+      "points": 7,
+      "panagram": false
+    },
+    "svid": {
+      "points": 1,
+      "panagram": false
+    },
+    "svida": {
+      "points": 5,
+      "panagram": false
+    },
+    "svivel": {
+      "points": 6,
+      "panagram": false
+    },
+    "valid": {
+      "points": 5,
+      "panagram": false
+    },
+    "vallvisa": {
+      "points": 8,
+      "panagram": false
+    },
+    "vial": {
+      "points": 1,
+      "panagram": false
+    },
+    "vida": {
+      "points": 1,
+      "panagram": false
+    },
+    "vidd": {
+      "points": 1,
+      "panagram": false
+    },
+    "vide": {
+      "points": 1,
+      "panagram": false
+    },
+    "vidi": {
+      "points": 1,
+      "panagram": false
+    },
+    "vila": {
+      "points": 1,
+      "panagram": false
+    },
+    "vild": {
+      "points": 1,
+      "panagram": false
+    },
+    "vilde": {
+      "points": 5,
+      "panagram": false
+    },
+    "vill": {
+      "points": 1,
+      "panagram": false
+    },
+    "villa": {
+      "points": 5,
+      "panagram": false
+    },
+    "ville": {
+      "points": 5,
+      "panagram": false
+    },
+    "vilse": {
+      "points": 5,
+      "panagram": false
+    },
+    "vilseleda": {
+      "points": 16,
+      "panagram": true
+    },
+    "visa": {
+      "points": 1,
+      "panagram": false
+    },
+    "visavi": {
+      "points": 6,
+      "panagram": false
+    },
+    "vise": {
+      "points": 1,
+      "panagram": false
+    },
+    "viss": {
+      "points": 1,
+      "panagram": false
+    },
+    "vissel": {
+      "points": 6,
+      "panagram": false
+    },
+    "vissla": {
+      "points": 6,
+      "panagram": false
+    },
+    "viva": {
+      "points": 1,
+      "panagram": false
+    },
+    "vivel": {
+      "points": 5,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-29",
   "characters": {
     "fixed": "f",
