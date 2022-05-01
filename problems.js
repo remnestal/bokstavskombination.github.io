@@ -1,5 +1,242 @@
 window.problems = [
 	{
+  "date": "2022-05-01",
+  "characters": {
+    "fixed": "f",
+    "optional": [
+      "g",
+      "k",
+      "i",
+      "s",
+      "n",
+      "a"
+    ]
+  },
+  "total_score": 327,
+  "words": {
+    "afasi": {
+      "points": 5,
+      "panagram": false
+    },
+    "agnfisk": {
+      "points": 14,
+      "panagram": true
+    },
+    "anfang": {
+      "points": 6,
+      "panagram": false
+    },
+    "anskaffa": {
+      "points": 8,
+      "panagram": false
+    },
+    "anskaffning": {
+      "points": 18,
+      "panagram": true
+    },
+    "faga": {
+      "points": 1,
+      "panagram": false
+    },
+    "fana": {
+      "points": 1,
+      "panagram": false
+    },
+    "fann": {
+      "points": 1,
+      "panagram": false
+    },
+    "fanns": {
+      "points": 5,
+      "panagram": false
+    },
+    "fansin": {
+      "points": 6,
+      "panagram": false
+    },
+    "fasa": {
+      "points": 1,
+      "panagram": false
+    },
+    "fasan": {
+      "points": 5,
+      "panagram": false
+    },
+    "faskin": {
+      "points": 6,
+      "panagram": false
+    },
+    "fasning": {
+      "points": 7,
+      "panagram": false
+    },
+    "fiffa": {
+      "points": 5,
+      "panagram": false
+    },
+    "fiffig": {
+      "points": 6,
+      "panagram": false
+    },
+    "fika": {
+      "points": 1,
+      "panagram": false
+    },
+    "finfin": {
+      "points": 6,
+      "panagram": false
+    },
+    "fink": {
+      "points": 1,
+      "panagram": false
+    },
+    "finka": {
+      "points": 5,
+      "panagram": false
+    },
+    "finna": {
+      "points": 5,
+      "panagram": false
+    },
+    "finnas": {
+      "points": 6,
+      "panagram": false
+    },
+    "finnig": {
+      "points": 6,
+      "panagram": false
+    },
+    "finsk": {
+      "points": 5,
+      "panagram": false
+    },
+    "finska": {
+      "points": 6,
+      "panagram": false
+    },
+    "fisa": {
+      "points": 1,
+      "panagram": false
+    },
+    "fisig": {
+      "points": 5,
+      "panagram": false
+    },
+    "fisk": {
+      "points": 1,
+      "panagram": false
+    },
+    "fiska": {
+      "points": 5,
+      "panagram": false
+    },
+    "fiskskinn": {
+      "points": 9,
+      "panagram": false
+    },
+    "fiss": {
+      "points": 1,
+      "panagram": false
+    },
+    "fnas": {
+      "points": 1,
+      "panagram": false
+    },
+    "fnasa": {
+      "points": 5,
+      "panagram": false
+    },
+    "fnasig": {
+      "points": 6,
+      "panagram": false
+    },
+    "fnask": {
+      "points": 5,
+      "panagram": false
+    },
+    "fnaska": {
+      "points": 6,
+      "panagram": false
+    },
+    "fniss": {
+      "points": 5,
+      "panagram": false
+    },
+    "fnissa": {
+      "points": 6,
+      "panagram": false
+    },
+    "fnissig": {
+      "points": 7,
+      "panagram": false
+    },
+    "fnissning": {
+      "points": 9,
+      "panagram": false
+    },
+    "infasning": {
+      "points": 9,
+      "panagram": false
+    },
+    "infinna": {
+      "points": 7,
+      "panagram": false
+    },
+    "inskaffa": {
+      "points": 8,
+      "panagram": false
+    },
+    "nafs": {
+      "points": 1,
+      "panagram": false
+    },
+    "nafsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "nafsning": {
+      "points": 8,
+      "panagram": false
+    },
+    "saffian": {
+      "points": 7,
+      "panagram": false
+    },
+    "saffiansskinn": {
+      "points": 13,
+      "panagram": false
+    },
+    "safsa": {
+      "points": 5,
+      "panagram": false
+    },
+    "signifikans": {
+      "points": 18,
+      "panagram": true
+    },
+    "skaffa": {
+      "points": 6,
+      "panagram": false
+    },
+    "skaffning": {
+      "points": 16,
+      "panagram": true
+    },
+    "snafs": {
+      "points": 5,
+      "panagram": false
+    },
+    "sniff": {
+      "points": 5,
+      "panagram": false
+    },
+    "sniffa": {
+      "points": 6,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-04-30",
   "characters": {
     "fixed": "i",
