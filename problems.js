@@ -1,5 +1,226 @@
 window.problems = [
 	{
+  "date": "2022-05-02",
+  "characters": {
+    "fixed": "b",
+    "optional": [
+      "r",
+      "g",
+      "o",
+      "e",
+      "i",
+      "l"
+    ]
+  },
+  "total_score": 225,
+  "words": {
+    "bebo": {
+      "points": 1,
+      "panagram": false
+    },
+    "beboelig": {
+      "points": 8,
+      "panagram": false
+    },
+    "bege": {
+      "points": 1,
+      "panagram": false
+    },
+    "beige": {
+      "points": 5,
+      "panagram": false
+    },
+    "belgier": {
+      "points": 7,
+      "panagram": false
+    },
+    "berber": {
+      "points": 6,
+      "panagram": false
+    },
+    "berg": {
+      "points": 1,
+      "panagram": false
+    },
+    "bergborr": {
+      "points": 8,
+      "panagram": false
+    },
+    "bergig": {
+      "points": 6,
+      "panagram": false
+    },
+    "beriberi": {
+      "points": 8,
+      "panagram": false
+    },
+    "bero": {
+      "points": 1,
+      "panagram": false
+    },
+    "bibel": {
+      "points": 5,
+      "panagram": false
+    },
+    "bier": {
+      "points": 1,
+      "panagram": false
+    },
+    "bill": {
+      "points": 1,
+      "panagram": false
+    },
+    "billig": {
+      "points": 6,
+      "panagram": false
+    },
+    "biolog": {
+      "points": 6,
+      "panagram": false
+    },
+    "biologi": {
+      "points": 7,
+      "panagram": false
+    },
+    "biroll": {
+      "points": 6,
+      "panagram": false
+    },
+    "blig": {
+      "points": 1,
+      "panagram": false
+    },
+    "blogg": {
+      "points": 5,
+      "panagram": false
+    },
+    "boboll": {
+      "points": 6,
+      "panagram": false
+    },
+    "boer": {
+      "points": 1,
+      "panagram": false
+    },
+    "boggi": {
+      "points": 5,
+      "panagram": false
+    },
+    "boleri": {
+      "points": 6,
+      "panagram": false
+    },
+    "bolero": {
+      "points": 6,
+      "panagram": false
+    },
+    "boll": {
+      "points": 1,
+      "panagram": false
+    },
+    "borg": {
+      "points": 1,
+      "panagram": false
+    },
+    "borgerlig": {
+      "points": 16,
+      "panagram": true
+    },
+    "borr": {
+      "points": 1,
+      "panagram": false
+    },
+    "borrigg": {
+      "points": 7,
+      "panagram": false
+    },
+    "brie": {
+      "points": 1,
+      "panagram": false
+    },
+    "brigg": {
+      "points": 5,
+      "panagram": false
+    },
+    "brillor": {
+      "points": 7,
+      "panagram": false
+    },
+    "brio": {
+      "points": 1,
+      "panagram": false
+    },
+    "broiler": {
+      "points": 7,
+      "panagram": false
+    },
+    "bror": {
+      "points": 1,
+      "panagram": false
+    },
+    "elbil": {
+      "points": 5,
+      "panagram": false
+    },
+    "glob": {
+      "points": 1,
+      "panagram": false
+    },
+    "iber": {
+      "points": 1,
+      "panagram": false
+    },
+    "libell": {
+      "points": 6,
+      "panagram": false
+    },
+    "liberier": {
+      "points": 8,
+      "panagram": false
+    },
+    "libero": {
+      "points": 6,
+      "panagram": false
+    },
+    "lillebror": {
+      "points": 9,
+      "panagram": false
+    },
+    "lobb": {
+      "points": 1,
+      "panagram": false
+    },
+    "obeboelig": {
+      "points": 9,
+      "panagram": false
+    },
+    "obillig": {
+      "points": 7,
+      "panagram": false
+    },
+    "oboe": {
+      "points": 1,
+      "panagram": false
+    },
+    "obol": {
+      "points": 1,
+      "panagram": false
+    },
+    "rebell": {
+      "points": 6,
+      "panagram": false
+    },
+    "ribb": {
+      "points": 1,
+      "panagram": false
+    },
+    "robe": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-05-01",
   "characters": {
     "fixed": "f",
