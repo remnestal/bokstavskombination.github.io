@@ -4,6 +4,323 @@ window.problems = [
   "characters": {
     "fixed": "b",
     "optional": [
+      "p",
+      "o",
+      "e",
+      "l",
+      "r",
+      "a"
+    ]
+  },
+  "total_score": 391,
+  "words": {
+    "abborre": {
+      "points": 7,
+      "panagram": false
+    },
+    "aber": {
+      "points": 1,
+      "panagram": false
+    },
+    "aerob": {
+      "points": 5,
+      "panagram": false
+    },
+    "alba": {
+      "points": 1,
+      "panagram": false
+    },
+    "arab": {
+      "points": 1,
+      "panagram": false
+    },
+    "arborr": {
+      "points": 6,
+      "panagram": false
+    },
+    "arborra": {
+      "points": 7,
+      "panagram": false
+    },
+    "arborrare": {
+      "points": 9,
+      "panagram": false
+    },
+    "babbel": {
+      "points": 6,
+      "panagram": false
+    },
+    "babbla": {
+      "points": 6,
+      "panagram": false
+    },
+    "babblare": {
+      "points": 8,
+      "panagram": false
+    },
+    "babe": {
+      "points": 1,
+      "panagram": false
+    },
+    "bala": {
+      "points": 1,
+      "panagram": false
+    },
+    "bale": {
+      "points": 1,
+      "panagram": false
+    },
+    "ball": {
+      "points": 1,
+      "panagram": false
+    },
+    "balla": {
+      "points": 5,
+      "panagram": false
+    },
+    "balle": {
+      "points": 5,
+      "panagram": false
+    },
+    "baobab": {
+      "points": 6,
+      "panagram": false
+    },
+    "bara": {
+      "points": 1,
+      "panagram": false
+    },
+    "barbar": {
+      "points": 6,
+      "panagram": false
+    },
+    "barberare": {
+      "points": 9,
+      "panagram": false
+    },
+    "barr": {
+      "points": 1,
+      "panagram": false
+    },
+    "barra": {
+      "points": 5,
+      "panagram": false
+    },
+    "bebo": {
+      "points": 1,
+      "panagram": false
+    },
+    "bebop": {
+      "points": 5,
+      "panagram": false
+    },
+    "belopp": {
+      "points": 6,
+      "panagram": false
+    },
+    "berber": {
+      "points": 6,
+      "panagram": false
+    },
+    "bero": {
+      "points": 1,
+      "panagram": false
+    },
+    "blar": {
+      "points": 1,
+      "panagram": false
+    },
+    "blarr": {
+      "points": 5,
+      "panagram": false
+    },
+    "blarra": {
+      "points": 6,
+      "panagram": false
+    },
+    "bloppa": {
+      "points": 6,
+      "panagram": false
+    },
+    "boarea": {
+      "points": 6,
+      "panagram": false
+    },
+    "bobba": {
+      "points": 5,
+      "panagram": false
+    },
+    "boboll": {
+      "points": 6,
+      "panagram": false
+    },
+    "boer": {
+      "points": 1,
+      "panagram": false
+    },
+    "bola": {
+      "points": 1,
+      "panagram": false
+    },
+    "bolero": {
+      "points": 6,
+      "panagram": false
+    },
+    "boll": {
+      "points": 1,
+      "panagram": false
+    },
+    "bolla": {
+      "points": 5,
+      "panagram": false
+    },
+    "boreal": {
+      "points": 6,
+      "panagram": false
+    },
+    "borr": {
+      "points": 1,
+      "panagram": false
+    },
+    "borra": {
+      "points": 5,
+      "panagram": false
+    },
+    "borrare": {
+      "points": 7,
+      "panagram": false
+    },
+    "bralla": {
+      "points": 6,
+      "panagram": false
+    },
+    "broa": {
+      "points": 1,
+      "panagram": false
+    },
+    "bropelare": {
+      "points": 16,
+      "panagram": true
+    },
+    "bror": {
+      "points": 1,
+      "panagram": false
+    },
+    "ebba": {
+      "points": 1,
+      "panagram": false
+    },
+    "ebola": {
+      "points": 5,
+      "panagram": false
+    },
+    "elaborera": {
+      "points": 9,
+      "panagram": false
+    },
+    "labb": {
+      "points": 1,
+      "panagram": false
+    },
+    "labba": {
+      "points": 5,
+      "panagram": false
+    },
+    "laber": {
+      "points": 5,
+      "panagram": false
+    },
+    "laborera": {
+      "points": 8,
+      "panagram": false
+    },
+    "lobb": {
+      "points": 1,
+      "panagram": false
+    },
+    "lobba": {
+      "points": 5,
+      "panagram": false
+    },
+    "oboe": {
+      "points": 1,
+      "panagram": false
+    },
+    "obol": {
+      "points": 1,
+      "panagram": false
+    },
+    "operabel": {
+      "points": 15,
+      "panagram": true
+    },
+    "opererbar": {
+      "points": 9,
+      "panagram": false
+    },
+    "parabel": {
+      "points": 7,
+      "panagram": false
+    },
+    "parabol": {
+      "points": 7,
+      "panagram": false
+    },
+    "polerbar": {
+      "points": 15,
+      "panagram": true
+    },
+    "probabel": {
+      "points": 15,
+      "panagram": true
+    },
+    "probera": {
+      "points": 7,
+      "panagram": false
+    },
+    "proberare": {
+      "points": 9,
+      "panagram": false
+    },
+    "rabarber": {
+      "points": 8,
+      "panagram": false
+    },
+    "rabbel": {
+      "points": 6,
+      "panagram": false
+    },
+    "rabbla": {
+      "points": 6,
+      "panagram": false
+    },
+    "rebell": {
+      "points": 6,
+      "panagram": false
+    },
+    "rebellera": {
+      "points": 9,
+      "panagram": false
+    },
+    "reparabel": {
+      "points": 9,
+      "panagram": false
+    },
+    "reparerbar": {
+      "points": 10,
+      "panagram": false
+    },
+    "robe": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
+  "date": "2022-05-02",
+  "characters": {
+    "fixed": "b",
+    "optional": [
       "r",
       "g",
       "o",
