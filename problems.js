@@ -1,5 +1,266 @@
 window.problems = [
 	{
+  "date": "2022-05-04",
+  "characters": {
+    "fixed": "f",
+    "optional": [
+      "l",
+      "m",
+      "r",
+      "t",
+      "o",
+      "a"
+    ]
+  },
+  "total_score": 273,
+  "words": {
+    "alfa": {
+      "points": 1,
+      "panagram": false
+    },
+    "alfalfa": {
+      "points": 7,
+      "panagram": false
+    },
+    "allomorf": {
+      "points": 8,
+      "panagram": false
+    },
+    "alltfort": {
+      "points": 8,
+      "panagram": false
+    },
+    "amfora": {
+      "points": 6,
+      "panagram": false
+    },
+    "amorf": {
+      "points": 5,
+      "panagram": false
+    },
+    "fall": {
+      "points": 1,
+      "panagram": false
+    },
+    "falla": {
+      "points": 5,
+      "panagram": false
+    },
+    "famla": {
+      "points": 5,
+      "panagram": false
+    },
+    "fara": {
+      "points": 1,
+      "panagram": false
+    },
+    "farao": {
+      "points": 5,
+      "panagram": false
+    },
+    "farfar": {
+      "points": 6,
+      "panagram": false
+    },
+    "farm": {
+      "points": 1,
+      "panagram": false
+    },
+    "farma": {
+      "points": 5,
+      "panagram": false
+    },
+    "farmor": {
+      "points": 6,
+      "panagram": false
+    },
+    "fart": {
+      "points": 1,
+      "panagram": false
+    },
+    "fata": {
+      "points": 1,
+      "panagram": false
+    },
+    "fatal": {
+      "points": 5,
+      "panagram": false
+    },
+    "fatt": {
+      "points": 1,
+      "panagram": false
+    },
+    "fatta": {
+      "points": 5,
+      "panagram": false
+    },
+    "flamma": {
+      "points": 6,
+      "panagram": false
+    },
+    "flat": {
+      "points": 1,
+      "panagram": false
+    },
+    "flata": {
+      "points": 5,
+      "panagram": false
+    },
+    "flor": {
+      "points": 1,
+      "panagram": false
+    },
+    "flora": {
+      "points": 5,
+      "panagram": false
+    },
+    "flott": {
+      "points": 5,
+      "panagram": false
+    },
+    "flotta": {
+      "points": 6,
+      "panagram": false
+    },
+    "fora": {
+      "points": 1,
+      "panagram": false
+    },
+    "form": {
+      "points": 1,
+      "panagram": false
+    },
+    "forma": {
+      "points": 5,
+      "panagram": false
+    },
+    "format": {
+      "points": 6,
+      "panagram": false
+    },
+    "fort": {
+      "points": 1,
+      "panagram": false
+    },
+    "forta": {
+      "points": 5,
+      "panagram": false
+    },
+    "fortfara": {
+      "points": 8,
+      "panagram": false
+    },
+    "fota": {
+      "points": 1,
+      "panagram": false
+    },
+    "foto": {
+      "points": 1,
+      "panagram": false
+    },
+    "fotoram": {
+      "points": 7,
+      "panagram": false
+    },
+    "fralla": {
+      "points": 6,
+      "panagram": false
+    },
+    "fram": {
+      "points": 1,
+      "panagram": false
+    },
+    "framfall": {
+      "points": 8,
+      "panagram": false
+    },
+    "framfart": {
+      "points": 8,
+      "panagram": false
+    },
+    "framfot": {
+      "points": 7,
+      "panagram": false
+    },
+    "framom": {
+      "points": 6,
+      "panagram": false
+    },
+    "from": {
+      "points": 1,
+      "panagram": false
+    },
+    "fromla": {
+      "points": 6,
+      "panagram": false
+    },
+    "fromma": {
+      "points": 6,
+      "panagram": false
+    },
+    "ftalat": {
+      "points": 6,
+      "panagram": false
+    },
+    "loft": {
+      "points": 1,
+      "panagram": false
+    },
+    "morf": {
+      "points": 1,
+      "panagram": false
+    },
+    "morfar": {
+      "points": 6,
+      "panagram": false
+    },
+    "offra": {
+      "points": 5,
+      "panagram": false
+    },
+    "ofta": {
+      "points": 1,
+      "panagram": false
+    },
+    "omfatta": {
+      "points": 7,
+      "panagram": false
+    },
+    "omforma": {
+      "points": 7,
+      "panagram": false
+    },
+    "raft": {
+      "points": 1,
+      "panagram": false
+    },
+    "tamform": {
+      "points": 7,
+      "panagram": false
+    },
+    "tarmflora": {
+      "points": 16,
+      "panagram": true
+    },
+    "toffla": {
+      "points": 6,
+      "panagram": false
+    },
+    "toft": {
+      "points": 1,
+      "panagram": false
+    },
+    "tolft": {
+      "points": 5,
+      "panagram": false
+    },
+    "tomfat": {
+      "points": 6,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-05-02",
   "characters": {
     "fixed": "b",
