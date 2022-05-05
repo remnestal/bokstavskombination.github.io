@@ -1,5 +1,302 @@
 window.problems = [
 	{
+  "date": "2022-05-05",
+  "characters": {
+    "fixed": "p",
+    "optional": [
+      "d",
+      "r",
+      "g",
+      "u",
+      "l",
+      "a"
+    ]
+  },
+  "total_score": 378,
+  "words": {
+    "alpdal": {
+      "points": 6,
+      "panagram": false
+    },
+    "appa": {
+      "points": 1,
+      "panagram": false
+    },
+    "dagpappa": {
+      "points": 8,
+      "panagram": false
+    },
+    "drapa": {
+      "points": 5,
+      "panagram": false
+    },
+    "gallup": {
+      "points": 6,
+      "panagram": false
+    },
+    "gapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "glapp": {
+      "points": 5,
+      "panagram": false
+    },
+    "glappa": {
+      "points": 6,
+      "panagram": false
+    },
+    "glupa": {
+      "points": 5,
+      "panagram": false
+    },
+    "grappa": {
+      "points": 6,
+      "panagram": false
+    },
+    "grupp": {
+      "points": 5,
+      "panagram": false
+    },
+    "gullpudra": {
+      "points": 16,
+      "panagram": true
+    },
+    "gupp": {
+      "points": 1,
+      "panagram": false
+    },
+    "guppa": {
+      "points": 5,
+      "panagram": false
+    },
+    "lapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "lapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "lappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "lappuggla": {
+      "points": 9,
+      "panagram": false
+    },
+    "lupp": {
+      "points": 1,
+      "panagram": false
+    },
+    "padda": {
+      "points": 5,
+      "panagram": false
+    },
+    "paddla": {
+      "points": 6,
+      "panagram": false
+    },
+    "pall": {
+      "points": 1,
+      "panagram": false
+    },
+    "palla": {
+      "points": 5,
+      "panagram": false
+    },
+    "pallra": {
+      "points": 6,
+      "panagram": false
+    },
+    "palp": {
+      "points": 1,
+      "panagram": false
+    },
+    "papp": {
+      "points": 1,
+      "panagram": false
+    },
+    "pappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "pappadag": {
+      "points": 8,
+      "panagram": false
+    },
+    "papua": {
+      "points": 5,
+      "panagram": false
+    },
+    "para": {
+      "points": 1,
+      "panagram": false
+    },
+    "parad": {
+      "points": 5,
+      "panagram": false
+    },
+    "pladdra": {
+      "points": 7,
+      "panagram": false
+    },
+    "plagg": {
+      "points": 5,
+      "panagram": false
+    },
+    "plugg": {
+      "points": 5,
+      "panagram": false
+    },
+    "plugga": {
+      "points": 6,
+      "panagram": false
+    },
+    "plupp": {
+      "points": 5,
+      "panagram": false
+    },
+    "plural": {
+      "points": 6,
+      "panagram": false
+    },
+    "plurr": {
+      "points": 5,
+      "panagram": false
+    },
+    "plurra": {
+      "points": 6,
+      "panagram": false
+    },
+    "pudla": {
+      "points": 5,
+      "panagram": false
+    },
+    "pudra": {
+      "points": 5,
+      "panagram": false
+    },
+    "pula": {
+      "points": 1,
+      "panagram": false
+    },
+    "pull": {
+      "points": 1,
+      "panagram": false
+    },
+    "pulla": {
+      "points": 5,
+      "panagram": false
+    },
+    "pulpa": {
+      "points": 5,
+      "panagram": false
+    },
+    "puppa": {
+      "points": 5,
+      "panagram": false
+    },
+    "purpra": {
+      "points": 6,
+      "panagram": false
+    },
+    "purpur": {
+      "points": 6,
+      "panagram": false
+    },
+    "purra": {
+      "points": 5,
+      "panagram": false
+    },
+    "radarpar": {
+      "points": 8,
+      "panagram": false
+    },
+    "rapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "rapgrupp": {
+      "points": 8,
+      "panagram": false
+    },
+    "rapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "rappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "uddaplagg": {
+      "points": 9,
+      "panagram": false
+    },
+    "uppallad": {
+      "points": 8,
+      "panagram": false
+    },
+    "uppdaga": {
+      "points": 7,
+      "panagram": false
+    },
+    "uppdra": {
+      "points": 6,
+      "panagram": false
+    },
+    "uppdrag": {
+      "points": 7,
+      "panagram": false
+    },
+    "uppdraga": {
+      "points": 8,
+      "panagram": false
+    },
+    "uppladdad": {
+      "points": 9,
+      "panagram": false
+    },
+    "upplag": {
+      "points": 6,
+      "panagram": false
+    },
+    "upplaga": {
+      "points": 7,
+      "panagram": false
+    },
+    "upplagad": {
+      "points": 8,
+      "panagram": false
+    },
+    "upplagd": {
+      "points": 7,
+      "panagram": false
+    },
+    "upplagra": {
+      "points": 8,
+      "panagram": false
+    },
+    "upprada": {
+      "points": 7,
+      "panagram": false
+    },
+    "uppraggad": {
+      "points": 9,
+      "panagram": false
+    },
+    "uppruggad": {
+      "points": 9,
+      "panagram": false
+    },
+    "upprullad": {
+      "points": 9,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-05-04",
   "characters": {
     "fixed": "f",
