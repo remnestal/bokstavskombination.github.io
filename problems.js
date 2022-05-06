@@ -1,5 +1,294 @@
 window.problems = [
 	{
+  "date": "2022-05-06",
+  "characters": {
+    "fixed": "i",
+    "optional": [
+      "m",
+      "o",
+      "p",
+      "t",
+      "l",
+      "a"
+    ]
+  },
+  "total_score": 274,
+  "words": {
+    "aioli": {
+      "points": 5,
+      "panagram": false
+    },
+    "alltiallo": {
+      "points": 9,
+      "panagram": false
+    },
+    "apati": {
+      "points": 5,
+      "panagram": false
+    },
+    "apatit": {
+      "points": 6,
+      "panagram": false
+    },
+    "aptit": {
+      "points": 5,
+      "panagram": false
+    },
+    "atopi": {
+      "points": 5,
+      "panagram": false
+    },
+    "attila": {
+      "points": 6,
+      "panagram": false
+    },
+    "illa": {
+      "points": 1,
+      "panagram": false
+    },
+    "imam": {
+      "points": 1,
+      "panagram": false
+    },
+    "imma": {
+      "points": 1,
+      "panagram": false
+    },
+    "impa": {
+      "points": 1,
+      "panagram": false
+    },
+    "impala": {
+      "points": 6,
+      "panagram": false
+    },
+    "lila": {
+      "points": 1,
+      "panagram": false
+    },
+    "lilla": {
+      "points": 5,
+      "panagram": false
+    },
+    "limit": {
+      "points": 5,
+      "panagram": false
+    },
+    "limma": {
+      "points": 5,
+      "panagram": false
+    },
+    "limo": {
+      "points": 1,
+      "panagram": false
+    },
+    "limpa": {
+      "points": 5,
+      "panagram": false
+    },
+    "lipa": {
+      "points": 1,
+      "panagram": false
+    },
+    "lipom": {
+      "points": 5,
+      "panagram": false
+    },
+    "lita": {
+      "points": 1,
+      "panagram": false
+    },
+    "mila": {
+      "points": 1,
+      "panagram": false
+    },
+    "millopp": {
+      "points": 7,
+      "panagram": false
+    },
+    "milo": {
+      "points": 1,
+      "panagram": false
+    },
+    "mima": {
+      "points": 1,
+      "panagram": false
+    },
+    "mitt": {
+      "points": 1,
+      "panagram": false
+    },
+    "opiat": {
+      "points": 5,
+      "panagram": false
+    },
+    "optimal": {
+      "points": 14,
+      "panagram": true
+    },
+    "otit": {
+      "points": 1,
+      "panagram": false
+    },
+    "papill": {
+      "points": 6,
+      "panagram": false
+    },
+    "papillom": {
+      "points": 8,
+      "panagram": false
+    },
+    "pila": {
+      "points": 1,
+      "panagram": false
+    },
+    "pill": {
+      "points": 1,
+      "panagram": false
+    },
+    "pilla": {
+      "points": 5,
+      "panagram": false
+    },
+    "pilot": {
+      "points": 5,
+      "panagram": false
+    },
+    "pilt": {
+      "points": 1,
+      "panagram": false
+    },
+    "pimpa": {
+      "points": 5,
+      "panagram": false
+    },
+    "pimpla": {
+      "points": 6,
+      "panagram": false
+    },
+    "pipa": {
+      "points": 1,
+      "panagram": false
+    },
+    "pippa": {
+      "points": 5,
+      "panagram": false
+    },
+    "pippi": {
+      "points": 5,
+      "panagram": false
+    },
+    "pitt": {
+      "points": 1,
+      "panagram": false
+    },
+    "plit": {
+      "points": 1,
+      "panagram": false
+    },
+    "plita": {
+      "points": 5,
+      "panagram": false
+    },
+    "polio": {
+      "points": 5,
+      "panagram": false
+    },
+    "talltita": {
+      "points": 8,
+      "panagram": false
+    },
+    "talmi": {
+      "points": 5,
+      "panagram": false
+    },
+    "tamil": {
+      "points": 5,
+      "panagram": false
+    },
+    "till": {
+      "points": 1,
+      "panagram": false
+    },
+    "tillit": {
+      "points": 6,
+      "panagram": false
+    },
+    "tillopp": {
+      "points": 7,
+      "panagram": false
+    },
+    "tillta": {
+      "points": 6,
+      "panagram": false
+    },
+    "tilltal": {
+      "points": 7,
+      "panagram": false
+    },
+    "tilltala": {
+      "points": 8,
+      "panagram": false
+    },
+    "tilt": {
+      "points": 1,
+      "panagram": false
+    },
+    "tilta": {
+      "points": 5,
+      "panagram": false
+    },
+    "tima": {
+      "points": 1,
+      "panagram": false
+    },
+    "timtal": {
+      "points": 6,
+      "panagram": false
+    },
+    "tiol": {
+      "points": 1,
+      "panagram": false
+    },
+    "tiomila": {
+      "points": 7,
+      "panagram": false
+    },
+    "tiotal": {
+      "points": 6,
+      "panagram": false
+    },
+    "tipi": {
+      "points": 1,
+      "panagram": false
+    },
+    "tipp": {
+      "points": 1,
+      "panagram": false
+    },
+    "tippa": {
+      "points": 5,
+      "panagram": false
+    },
+    "tipptopp": {
+      "points": 8,
+      "panagram": false
+    },
+    "tita": {
+      "points": 1,
+      "panagram": false
+    },
+    "titt": {
+      "points": 1,
+      "panagram": false
+    },
+    "titta": {
+      "points": 5,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-05-05",
   "characters": {
     "fixed": "p",
