@@ -1,5 +1,238 @@
 window.problems = [
 	{
+  "date": "2022-05-07",
+  "characters": {
+    "fixed": "p",
+    "optional": [
+      "v",
+      "n",
+      "g",
+      "e",
+      "r",
+      "a"
+    ]
+  },
+  "total_score": 257,
+  "words": {
+    "agape": {
+      "points": 5,
+      "panagram": false
+    },
+    "angrepp": {
+      "points": 7,
+      "panagram": false
+    },
+    "apanage": {
+      "points": 7,
+      "panagram": false
+    },
+    "appa": {
+      "points": 1,
+      "panagram": false
+    },
+    "eggvapen": {
+      "points": 8,
+      "panagram": false
+    },
+    "gapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "genrep": {
+      "points": 6,
+      "panagram": false
+    },
+    "genrepa": {
+      "points": 7,
+      "panagram": false
+    },
+    "grappa": {
+      "points": 6,
+      "panagram": false
+    },
+    "grep": {
+      "points": 1,
+      "panagram": false
+    },
+    "grepe": {
+      "points": 5,
+      "panagram": false
+    },
+    "grepp": {
+      "points": 5,
+      "panagram": false
+    },
+    "greppa": {
+      "points": 6,
+      "panagram": false
+    },
+    "napp": {
+      "points": 1,
+      "panagram": false
+    },
+    "nappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "nappera": {
+      "points": 7,
+      "panagram": false
+    },
+    "page": {
+      "points": 1,
+      "panagram": false
+    },
+    "panera": {
+      "points": 6,
+      "panagram": false
+    },
+    "pang": {
+      "points": 1,
+      "panagram": false
+    },
+    "panga": {
+      "points": 5,
+      "panagram": false
+    },
+    "pangpang": {
+      "points": 8,
+      "panagram": false
+    },
+    "panna": {
+      "points": 5,
+      "panagram": false
+    },
+    "papp": {
+      "points": 1,
+      "panagram": false
+    },
+    "pappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "papper": {
+      "points": 6,
+      "panagram": false
+    },
+    "para": {
+      "points": 1,
+      "panagram": false
+    },
+    "paravan": {
+      "points": 7,
+      "panagram": false
+    },
+    "parera": {
+      "points": 6,
+      "panagram": false
+    },
+    "pava": {
+      "points": 1,
+      "panagram": false
+    },
+    "pavane": {
+      "points": 6,
+      "panagram": false
+    },
+    "peang": {
+      "points": 5,
+      "panagram": false
+    },
+    "peng": {
+      "points": 1,
+      "panagram": false
+    },
+    "penna": {
+      "points": 5,
+      "panagram": false
+    },
+    "penne": {
+      "points": 5,
+      "panagram": false
+    },
+    "peppa": {
+      "points": 5,
+      "panagram": false
+    },
+    "peppar": {
+      "points": 6,
+      "panagram": false
+    },
+    "peppra": {
+      "points": 6,
+      "panagram": false
+    },
+    "perenn": {
+      "points": 6,
+      "panagram": false
+    },
+    "preparera": {
+      "points": 9,
+      "panagram": false
+    },
+    "rapa": {
+      "points": 1,
+      "panagram": false
+    },
+    "rapp": {
+      "points": 1,
+      "panagram": false
+    },
+    "rappa": {
+      "points": 5,
+      "panagram": false
+    },
+    "rappare": {
+      "points": 7,
+      "panagram": false
+    },
+    "repa": {
+      "points": 1,
+      "panagram": false
+    },
+    "reparera": {
+      "points": 8,
+      "panagram": false
+    },
+    "repe": {
+      "points": 1,
+      "panagram": false
+    },
+    "vapen": {
+      "points": 5,
+      "panagram": false
+    },
+    "vapengren": {
+      "points": 16,
+      "panagram": true
+    },
+    "vappen": {
+      "points": 6,
+      "panagram": false
+    },
+    "vargpar": {
+      "points": 7,
+      "panagram": false
+    },
+    "varp": {
+      "points": 1,
+      "panagram": false
+    },
+    "varpa": {
+      "points": 5,
+      "panagram": false
+    },
+    "varpare": {
+      "points": 7,
+      "panagram": false
+    },
+    "vepa": {
+      "points": 1,
+      "panagram": false
+    }
+  }
+},
+	{
   "date": "2022-05-06",
   "characters": {
     "fixed": "i",
