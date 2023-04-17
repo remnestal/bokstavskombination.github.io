@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bokstavskombination</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <script src="index.js"></script>
+  <script src="solved.js"></script>
+  <script src="solution.js"></script>
+  <script src="problems.js"></script>
+  <div class="container">
+    <div id="scoreline">
+      <span id="scoreline-value">0</span>
+      <span id="scoreline-meter">
+        <span id="scoreline-ratio" class="gray">
+          <span id="scoreline-ratio-percent-value">0</span>
+          <i id="scoreline-ratio-percent-symbol" class="fa fa-percent"></i>
+        </span>
+      </span>
+    </div>
+    <div id="solved-expandable" class="fade-out">
+      <div id="solved-expandable-topbar">
+        <div id="solved-expandable-prompt">Du har hittat <span id="solved-expandable-count">0</span> ord</div>
+        <button id="solved-expandable-toggle" onclick="collapseSolvedExpandable()"><i class="fa fa-compress"></i></button>
+      </div>
+      <div id="solved-expandable-columns">
+        <!-- placeholder -->
+      </div>
+    </div>
+    <div id="solved-summary">
+      <span id="solved-summary-list">Inga ord hittade ännu</span>
+      <button id="solved-summary-toggle" onclick="expandSolvedExpandable()"><i class="fa fa-expand"></i></button>
+    </div>
+    <div id="floating">
+      <div id="alert-message">
+        <!-- placeholder -->
+      </div>
+      <div id="terminal">
+        <span id="terminal-placeholder">|</span>
+        <span id="terminal-staging"></span>
+        <span id="terminal-cursor">|</span>
+      </div>
+      <div id="characters">
+        <div id="character-row-1">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-0"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-1"></span></button>
+        </div>
+        <div id="character-row-2">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-2"></span></button>
+          <button class="character-grid-item-main" onclick="appendSolutionProposal(event)"><span id="char-fixed"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-3"></span></button>
+        </div>
+        <div id="character-row-3">
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-4"></span></button>
+          <button class="character-grid-item" onclick="appendSolutionProposal(event)"><span id="char-optional-5"></span></button>
+        </div>
+      </div>
+      <div id="panel">
+        <button id="panel-button-erase" class="panel-button" onclick="popSolutionProposal()">Sudda</button>
+        <button id="panel-button-shuffle" class="panel-button" onclick="shuffleCharacters()"><i class="fa fa-random"></i></button>
+        <button id="panel-button-submit" class="panel-button" onclick="submitSolutionProposal()">Pröva</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

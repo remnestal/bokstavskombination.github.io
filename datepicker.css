@@ -1,0 +1,81 @@
+
+/* datepicker */
+
+#scoreline-datepicker-toggle {
+  text-align: center;
+  margin: 0 4%;
+  background-color: white;
+  border: none;
+  font-size: 14pt;
+  max-width: 10%;
+} 
+
+#datepicker-expandable {
+  z-index: 2;
+  position: fixed;
+  margin: 4% 0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+} 
+
+#datepicker-expandable-topbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 4%;
+  width: 100%;
+} 
+
+#datepicker-expandable-toggle {
+  text-align: center;
+  margin-right: 4%;
+  background-color: white;
+  border: none;
+  font-size: 14pt;
+} 
+
+#datepicker-option {
+  display: inline-block;
+  margin: 4%;
+  width: 100%;
+  border: 0px;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgb(241, 236, 231);
+}
+
+.datepicker-option-title {
+  font-size: 16pt;
+  font-weight: 300;
+  font-family: sans-serif;
+  margin-bottom: 4%;
+}
+
+.datepicker-option-char-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  background-color: red;
+}
+
+.datepicker-option-char, .datepicker-option-char-main {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  font-size: 12pt;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin-right: 2%;
+  width: 100%;
+  height: 100%;
+}
+
+.datepicker-option-char {
+  background-color: rgb(241, 236, 231);
+}
+
+.datepicker-option-char-main {
+  background-color: rgb(82, 82, 255);
+  color: white;
+}

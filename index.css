@@ -1,0 +1,372 @@
+* {
+  /* stop double-tap zooming */
+  touch-action: manipulation;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#floating {
+  width: 100vw;
+  height: 72vh; /* sum of below */
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+}
+
+/* scoreline */
+
+#scoreline {
+  width: 100vw;
+  padding: 2vh 0;
+  display: flex;
+  align-items: center;
+  font-size: 14pt;
+  font-family: sans-serif;
+}
+
+#scoreline-value {
+  display: inline-block;
+  flex-grow: 0;
+  margin: 0 4%;
+  width: 10%;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.5s;
+}
+
+#scoreline-meter {
+  display: inline-block;
+  flex-grow: 1;
+  margin-right: 4%;
+  background-color: rgb(246, 241, 227);
+  border-radius: 100px; /* overstated to achieve full rounding */
+}
+
+#scoreline-ratio {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  min-width: 50px;
+  color:white;
+  font-weight: bold;
+  line-height: auto;
+  border-radius: 100px; /* overstated to achieve full rounding */
+  transition: 0.5s;
+}
+
+.gold {
+  background-color: gold;
+  border: 0px;
+}
+
+.silver {
+  background-color: silver;
+  border: 0px;
+}
+
+.bronze {
+  background-color: #bf8970;
+  border: 0px;
+}
+
+.gray {
+  background-color: lightgrey;
+  border: 0px;
+}
+
+#scoreline-ratio-percent-symbol {
+  font-size: 8pt;
+  margin-left: 2%;
+}
+
+/* solved */
+
+#solved-summary {
+  width:92vw;
+  padding: 2vh 0;
+  border: 1px;
+  margin: 0 4%;
+  border-color: rgb(241, 236, 231);
+  border-style: solid;
+  border-radius: 10px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+#solved-summary-list {
+  margin-left: 4%;
+  white-space: nowrap;
+  font-size: 11pt;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#solved-summary-toggle {
+  margin: 0 4%;
+  border: 0px;
+  font-size: 12pt;
+  text-align: center;
+  background-color: white;
+}
+
+#solved-expandable {
+  z-index: 2;
+  background-color: white;
+  position: absolute;
+  width:92vw;
+  padding: 2vh 0;
+  border: 1px;
+  margin: 0 4%;
+  border-color: rgb(241, 236, 231);
+  border-style: solid;
+  border-radius: 10px;
+  font-size: 12pt;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.fade-in {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.fade-out {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+#solved-expandable-topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  width: 100%;
+}
+
+#solved-expandable-prompt {
+  font-size: 11pt;
+  margin-left: 4%;
+}
+
+#solved-expandable-toggle {
+  margin: 0 4%;
+  border: 0px;
+  font-size: 12pt;
+  text-align: center;
+  background-color: white;
+}
+
+#solved-expandable-columns {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(auto-fill,minmax(50%, 1fr));
+  margin: 0 4%;
+  max-height: 60vh;
+  overflow: scroll;
+}
+
+.solved-expandable-column-item {
+  border: 0px;
+  height: 20px;
+  font-size: 11pt;
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: rgb(241, 236, 231);
+  margin-right: 20%;
+  margin-bottom: 2%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* alerts */
+
+#alert-message {
+  text-align: center;
+  width: 100vw;
+  font-size: 11pt;
+  font-family: sans-serif;
+  line-height: 20px;
+  height: 20px;
+}
+
+.alert-message-greeting, .alert-message-points, .alert-error-message {
+  opacity: 0;
+  z-index: 1;
+}
+
+.alert-message-greeting, .alert-error-message {
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+@keyframes greetingFade {
+  0%, 100% { opacity: 0 }
+  10%, 90% { opacity: 1 }
+}
+
+.alert-message-greeting {
+  border: 1px;
+  border-color: rgb(241, 236, 231);
+  border-style: solid;
+  animation: greetingFade 3s linear;
+}
+
+@keyframes pointsFade {
+  0%, 100% { opacity: 0 }
+  10%, 90% { opacity: 1 }
+}
+
+.alert-message-points {
+  animation: pointsFade 3.2s linear;
+}
+
+@keyframes errorFade {
+  0%, 100% { opacity: 0 }
+  10%, 90% { opacity: 1 }
+}
+
+.alert-error-message {
+  background-color: rgb(241, 236, 231);
+  animation: errorFade 3s linear;
+}
+
+/* terminal */
+
+#terminal {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 24pt;
+  line-height: 24pt;
+  margin: 6% 0;
+  font-family: sans-serif;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+.terminal-error {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#terminal-cursor, #terminal-placeholder {
+  z-index: 1;
+  font-size: 28pt;
+  line-height: 24pt;
+  color: blue;
+  animation: blinker 1.5s linear infinite;
+}
+
+#terminal-placeholder {
+  animation: none;
+  opacity: 0;
+}
+
+/* panel */
+
+#panel {
+  text-align: center;
+  width: 100vw;
+  margin-top: 12%;
+}
+
+.panel-button {
+  font-size: 12pt;
+  padding: 10px 20px;
+  margin: 0 2%;
+  font-family: sans-serif;
+  border: 1px;
+  border-style: solid;
+  border-radius: 750px;
+  border-color: rgb(241, 236, 231);
+  background-color: white;
+}
+
+#panel-button-shuffle {
+  border-style: none;
+  align-items: center;
+  text-align: center;
+}
+
+/* characters */
+
+#characters{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#character-row-1, #character-row-2, #character-row-3 {  
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-grid-item,.character-grid-item-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 236, 231);
+  border: 0px;
+  border-style: solid;
+  border-radius: 15px;
+  width: 75px;
+  height: 75px;
+  margin: 3px;
+  font-family: sans-serif;
+  font-size: 18pt;
+  font-weight: 600;
+  color: rgb(45, 45, 45);
+}
+
+.character-grid-item-main {
+  background-color: #f3b171;
+  color: rgb(45, 45, 45);
+}
+
+@keyframes charFade {
+  40%, 60% { opacity: 0 }
+  0%, 100% { opacity: 1 }
+}
+
+.char-fade {
+  animation: charFade 300ms linear;
+}
